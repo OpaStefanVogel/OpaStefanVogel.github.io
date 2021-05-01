@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Rezepte.xsl" ?>
+ <REZEPTE>
+
+<REZEPT>
+<TITEL ok="lavender">Baumkuchen</TITEL>
+<ZUTATEN>
+150 g Mehl
+100 g Weizenin
+250 g Zucker
+  1   Vanillezucker
+250 g Butter
+100 g Marzipanrohmasse
+  7   Eier
+1/2   Backpulver
+ </ZUTATEN>
+<ZUBEREITUNG>
+Butter schaumig schlagen. Eigelb hinzu, Zucker, Marzipanrohmasse in 50 ml heißem Wasser auflösen und auch dazu. Alles verrühren. Nach und nach Mehl und Backpulver hinzugeben und auch verrühren. Zuletzt Eiweiß steif schlagen und unterheben. Schichtenweise in die Springform geben, je 3 bis 4 El mit Backpinsel verteilen. Bei 25 cm Durchmesser werden das etwa 10 Schichten. Backen mit Umluft bei 165 °C 4 min je Schicht, bei 170 °C 3 min je Schicht.
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Hochzeitstorte</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Erdbeerrolle</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Obsttorte</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Marmorkuchen</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+
+
+<REZEPT>
+<TITEL ok="lavender">Bauerntopf</TITEL>
+<ZUTATEN>
+ 2 kg Kartoffeln
+500 g Hackfleisch
+    5 mittlere Möhren 
+      Gemüsebrühpulver
+      Tomatenmark
+ 50 g Butter
+ 50 g Mehl
+    1 Ei
+      etwas saure Sahne
+    3 Paprikaschoten
+1 Pck Pilze
+   1x Gemüsemais
+      Pfeffer
+      Salz
+      Cayenne-Pfeffer
+      Paprika
+      Bohnenkraut
+      paar blaue Kartoffeln
+</ZUTATEN>
+
+<ZUBEREITUNG>
+Aus Butter, Mehl und Ei eine <a>Mehlschwitze.xml</a> machen.
+Kartoffeln garkochen <UHR>15:00</UHR> Minuten, dann abgießen und abkühlen lassen.
+Hackfleisch gründlich durchbraten <UHR>10:00</UHR> Minuten, bis es richtig gar ist.
+Möhren in etwas Butter dünsten <UHR>10:00</UHR> Minuten.
+Pilze grob geschnitten anbraten.
+Paprikaschoten dünsten.
+Mehlschwitze mit Sahne anrühren
+Tomatenmark und Gemüsebrühpulver hineinrühren.
+Pfeffer und Salz und Cherry hinzugeben.
+Dosenmais hinzu.
+kurz mit Bohnenkraut durchziehen lassen.
+</ZUBEREITUNG>
+</REZEPT>
+
+
+<REZEPT>
+<TITEL ok="lavender">böhmische Knödel</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+
+<ZUBEREITUNG>
+<a>https://www.chefkoch.de/rezepte/130591056121579/Boehmischer-Knoedel.html</a></ZUBEREITUNG>
+</REZEPT>
+
+
+
+<REZEPT>
+<TITEL ok="lavender">Donauwelle</TITEL>
+<ZUTATEN>
+für den Boden:
+ 1 kg gefrorene Kirschen = 133 Stück
+      ausreichend Zucker für die Kirschen
+
+    5 Eier
+<s>125 g Butter</s>
+100 ml Milch
+200 g Zucker
+125 g Butter
+    1 Backpulver
+    1 Vanillezucker
+ca.<s>14</s>22 Eßlöffel Mehl <s>= 350 g</s>
+    6 Teelöffel Kakao
+    6 Eßlöffel Wasser
+  
+5/8 l Milch
+
+
+</ZUTATEN>
+
+<ZUBEREITUNG>
+Die Kirschen auftauen und ausreichend zuckern.
+
+Eier schaumig schlagen, dann 6 Eßlöffel Mehl hinzu und nochmal etwas weiter schlagen. Dann Zucker, Backpulver, Restmehl noch gründlich unterrühren und 3 min rühren. Dann 2/3 aufs Backblech und das restliche 1/3 mit dem Kakao und dem Wasser. <UHR>40:00</UHR> min auf 150 °C. 
+</ZUBEREITUNG>
+</REZEPT>
+
+
+
+
+<REZEPT>
+<TITEL ok="lavender">Eierkuchen</TITEL>
+<ZUTATEN>
+  4   Eier
+1/2 l Milch
+220 g Mehl
+1/4 Teelöffel Salz
+</ZUTATEN>
+<ZUBEREITUNG>
+Eier schaumig mixen.
+Nach und nach Mehl unterrühren abwechselnd mit 3/8 l Milch
+Etwas quellen lassen noch.
+Rest der Milch unterrühren.
+Mit Salz würzen.
+Auf Stufe 6 je Seite 1 bis 2 min aufbacken.
+Es werden 8 Stück.
+
+Eierkuchen Nr.1 <UHR>5:00</UHR> Nr.2 <UHR>5:00</UHR> Nr.3 <UHR>5:00</UHR> Nr.4 <UHR>5:00</UHR>
+Eierkuchen Nr.5 <UHR>5:00</UHR> Nr.6 <UHR>5:00</UHR> Nr.7 <UHR>5:00</UHR> Nr.8 <UHR>5:00</UHR>
+</ZUBEREITUNG>
+</REZEPT>
+
+
+
+<REZEPT>
+<TITEL ok="lavender">Tortenboden</TITEL>
+<ZUTATEN>
+    5 Eier
+ca.14 Eßlöffel Mehl
+    1 Backpulver
+    1 Vanillezucker
+</ZUTATEN>
+
+<ZUBEREITUNG>
+Eier schaumig schlagen, dann 5 Eßlöffel Mehl hinzu und nochmal etwas weiter schlagen. Dann Zucker, Backpulver, Restamehl joch gründlich unterrühren und gleich in Tortenbodenbackform füllen. Erst <UHR>10:00</UHR> Miuten bei 180 °C backen, anschließend weiter <UHR>30:00</UHR> Minuten bei 150 °C. Dann in 3 Scheiben schneiden.
+</ZUBEREITUNG>
+</REZEPT>
+
+
+<REZEPT><TITEL ok="lavender">Kartoffelsuppe</TITEL>
+
+<ZUTATEN>
+ 2 kg Kartoffeln
+    3 große Möhren
+200 g Bauchspeck
+    2 Zwiebeln
+      Gemüsebrühpulver
+      Pfeffer
+      Salz
+      etwas Butter
+      Mehlschwitze
+      Wiener 
+</ZUTATEN>
+
+<ZUBEREITUNG>
+Kartoffel schälen, <UHR>20:00</UHR> Minuten kochen, dann durchdrücken. Dazwischen Bauchspeck kleinschneiden und anbraten. Passend geschnittene Zwiebeln dazutun, kurz mitbraten und anschließend mit etwas Wasser <UHR>10:00</UHR> Minuten kochen, bis alles gar ist. Möhren schälen, in dünne Scheiben schneiden, mit etwas Butter kurz dünsten, dann ein wenig Wasser dazugeben und auch etwa <UHR>10:00</UHR> Minuten fertiggaren. Alles zusammenrühren. Brühpulver und Gewürze nach und nach hinzugeben und etwas <a>Mehlschwitze.xml</a> und ausreichend Wasser. Alle Zeiten passend variieren, so daß die Zutaten einzeln genau richtig zubereitet sind. Auch die Mengen kann man noch variieren, so wie die Kartoffelsuppe heute werden soll.
+
+
+</ZUBEREITUNG>
+</REZEPT>
+
+
+<REZEPT><TITEL ok="lavender">Lasagne</TITEL>
+<ZUTATEN>
+500 g Hackfleisch
+   24 Lasagneplatten
+400 g Chreme Fraiche
+300 g Gouda
+      Pilze
+      Tomatendose
+      Tomatenmark
+      Pfeffer
+      Salz
+      Paprika
+      Mehlschwitze
+
+    8 Tomaten
+    1 Zwiebel
+
+</ZUTATEN>
+
+<ZUBEREITUNG>
+Hackfleisch anbraten <UHR>7:00</UHR> Minuten.
+Danach Pilze extra durchschmoren auch etwa <UHR>7:00</UHR> Minuten.
+Tomatendose und Tomatenmark hinzugeben,
+Mit Wasser und etwas <a>Mehlschwitze.xml</a> ausreichend strecken.
+Salz, Pfeffer, Paprika dazu.
+Auch etwas Oregano.
+Abwechselnd in Schale die Soße und 4 Platten hoch.
+Abschließend Soße, Chreme Fraiche sowie Gouda daraufreiben.
+<UHR>30:00</UHR> Minuten bei 220 °C backen und danach 
+mindestens <UHR>60:00</UHR> Minuten abkühlen lassen.
+Dazu einen Tomatensalat mit Zwiebeln.
+</ZUBEREITUNG>
+</REZEPT>
+
+
+
+<REZEPT>
+<TITEL ok="lavender">Makronen</TITEL>
+
+<ZUTATEN>
+    4 Eier
+??? g Zucker
+250 g geriebene Mandeln
+      etwas Salz
+</ZUTATEN>
+
+<ZUBEREITUNG>
+<UHR>20:00</UHR> Minuten bei 150 °C backen, nach 10 min das Backblech umdrehen, damit die hinteren nicht dunkel und die vorderen nicht hell werden.
+</ZUBEREITUNG>
+
+</REZEPT>
+
+
+
+<REZEPT><TITEL ok="lavender">Mehlschwitze</TITEL>
+<ZUTATEN>
+ 50 g Butter
+      Mehl
+    1 Ei
+      Wasser oder 
+        saure Sahne
+        oder Milch
+        oder sowas
+        je nachdem
+      Salz
+</ZUTATEN>
+
+<ZUBEREITUNG>
+Butter zerlaufen lassen und ganz ganz leicht anbräunen lassen bis fast nicht mehr kocht.
+Abkühlen lassen auf Zimmertemperatur.
+Mehl darunter rühren soviel das es noch gut umzurühren geht.
+Unter Rühren erhitzen bis gewünschte Bräunung erreicht (hell/dunkel).
+Abkühlen lassen auf Zimmertemparatur. 
+1 Ei darunter rühren und rühren bis etwas fester geworden.
+Bevor dann ganz fest nach und nach Flüssigkeit darunter rühren, eigentlich egal wieviel.
+Leicht erwärmen bis die Mehlschwitze andickt, aber dabei nicht zum kochen bringen.
+Abkühlen lassen auf Zimmertemperatur.
+Salz hinzu und schmeckt auch schon so.
+</ZUBEREITUNG>
+</REZEPT>
+
+
+
+<REZEPT>
+<TITEL ok="lavender">Quarkkäulchen</TITEL>
+
+<ZUTATEN>
+ 1 kg Kartoffeln
+750 g Quark
+300 g Mehl
+100 g Rosinen
+    2 Eier
+150 g Zucker
+1/4 l Milch
+      etwas Salz
+'      
+      Apfelmus
+      Zucker
+      Zimtzucker
+</ZUTATEN>
+
+<ZUBEREITUNG>
+Kartoffeln garkochen <UHR>15:00</UHR> Minuten, laut Originalrezept besser am Vortag, doch frisch gekocht geht auch. Dann reiben und mit Quark, Ei, Zucker, Salz, Rosinen vermischen. Auf Stufe 3 bis 4 jede Seite 3 bis 5 Minuten braten. Ca. 5 Pfannen.<a>Quarkuhr.html</a>
+<QUELLE>Kochbuch Seite 165, etwa doppelte Menge, Milch zusätzlich aus Rezept Quarkpuffer</QUELLE>
+</ZUBEREITUNG>
+
+</REZEPT>
+
+
+
+<REZEPT><TITEL ok="lavender">Selbergemachte Nudeln</TITEL>
+<ZUTATEN>
+  300 g Rindfleisch zum Kochen
+  500 g Mehl
+      6 Eier
+      2 Möhren
+        Salz
+        Muskat
+        Bio-Gemüsebrühpulver
+</ZUTATEN>
+
+<ZUBEREITUNG>
+
+</ZUBEREITUNG>
+<BILD>/mnt/sdcard/DCIM/Camera/IMG_20141007_204238.JPG</BILD>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="lavender">Letscho</TITEL>
+<ZUTATEN>für 4 Personen.
+1/3 Würfel Schweineschmalz
+1   kg Gelbe Spitzpaprika
+500  g gute Rispentomaten
+2   St große Zwiebel
+</ZUTATEN>
+<ZUBEREITUNG>
+- die kleingehackte Zwiebel in Schmalz erhitzen bis sie gläsern wird
+- entkernte Paprika in Stücke schneiden circa 3x3 cm
+- Tomaten abbrühen, schälen, vierteln
+- beides in das heiße Fett-Zwiebel geben und umrühren
+- keineswegs Wasser verwenden.
+- auf mittlerer Hitze so lange kochen, daß der Paprika noch leicht bißfest bleibt. ab und zu umrühren
+Tipps: 
+Wenn das alles zu fettig vorkommt, ein rohes Hühnerei zum Schluß reinrühren, aufkochen, damit der Saft sämig wird.
+
+Warm mit Weißbrot genießen.
+
+Varianten: mit wenig Reis oder Nudeln, kleine Speck-Wiener oder andere Wurststücken. Für 8 zubereiten und die Hälfte einfrieren.
+
+Würzen: Salz Pfeffer 
+
+Quelle: hat Birgit mitgebracht ein Rezept von Bekannten
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT ok="orange">
+<TITEL ok="orange">Rinderbraten+Klöse</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Schweinebraten im Bratschlauch</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Graupeneintopf</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Kartoffelbrei+Roster</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Kartoffelpuffer</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Quarkpuffer</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Pizza</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Kartoffelsalat</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Grünkohl</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="lavender">Osterbrot</TITEL>
+<ZUTATEN>
+ 1 kg Mehl, 500+500
+200 g Zucker
+200 g Sultaninen
+100 g Orangeat
+100 g Zitronat
+200 g Mandeln gehackt
+ 60 g Hefe
+350 g Butter
+ 50 g Eigelb
+400 g Milch, 300+100
+ 50 g Wasser
+ 20 g Zitrone
+ 12 g Salz
+</ZUTATEN>
+<ZUBEREITUNG>
+Hefestück 26 °C Stehzeit 60 min
+500 g Mehl
+ 60 g Hefe
+300 g Milch
+
+Sultaninenquellstück mit heißem Wasser einquellen
+200 g Sultaninen
+ 50 g Wasser
+
+Quellstück mindestens 60 min einquellen
+100 g Orangeat
+100 g Zitronat
+200 g Zucker
+200 g Mandeln gehackt
+ 12 g Salz
+ 20 g Zitrone
+100 g Milch
+
+Osterbrotteig:
+Hefestück
+Quellstück
+500 g Mehl
+350 g Butter
+ 50 g Eigelb
+Sultaninenquellstück schonend unterkneten
+
+- 650 g schwere Stücke abwiegen und zustoßen
+- ca. 35 Minuten fallend von 230 °C auf 200 °C backen
+- aprikotieren und mit gehobelten Mandeln bestreuen oder mit Fondant glasieren
+
+Quelle: Osterbrot.pdf der Sächsischen Bäckerfachschule Dresden-Helmsdorf e.V.
+
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="aqua">gefüllte Paprikaschoten</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Krautwickel</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">verlorene Eier</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange">Linseneintopf</TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+
+
+</REZEPTE>
+
