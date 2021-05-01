@@ -1,0 +1,70 @@
+.REZEPT:first-letter {
+  font-size:400%;
+  }
+
+.REZEPT:after {
+#  content:url("/mnt/sdcard/DCIM/Camera/IMG_20141007_204238.JPG");
+  }
+
+.REZEPT {
+//  white-space: pre-wrap;
+  font-size:120%;
+  }  
+
+.ZUTATEN:before {
+  content:"Zutaten:";
+  border: groove;
+  display: inline;
+  background: green;
+}
+
+.ZUTATEN { 
+  white-space: pre-wrap;
+  display:inline-block;
+//  top:400px;
+//  left:140px;
+  font-family:Courier,monospace;
+  font-size:100%;
+  outline: solid;
+  background: yellow;
+//  marging: 777px;
+  padding: 8px;
+  }
+
+.ZUBEREITUNG:before {
+  content:"Zubereitung:";
+  border: solid;
+  display: inline;
+  background: red;
+}
+
+.ZUBEREITUNG {
+  white-space: pre-wrap;
+  display: inline-block;
+  font-family:fantasy;
+  vertical-align: top;
+  border: double;
+  background: lightgrey;
+  font-style:italic;
+  color:black;
+  min-width: 400px;
+  max-width: 600px;
+  padding: 8px;
+  }
+
+.LISTE {
+  font-size:180%;
+  }
+
+.UHR:aftergehtgarnichgutdaflackertkurzdasgroßebildauf {
+#  content:"Stoppuhr:";
+  border: groove;
+  display: inline;
+  background: green;
+  content:url("REZEPT_UHR.svg");
+//  content:url("data:image/svg+xml;utf8,<?xml?><svg><text y='10'>UHR</text</svg>")
+  }
+
+.UHR,a {
+  font-size:180%;
+  }
