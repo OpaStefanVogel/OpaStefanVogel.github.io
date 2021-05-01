@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  version="1.1" baseProfile="full" 
+  width="30" height="30"
+  fill="none" stroke="maroon" stroke-width="3">
+<title>Uhr</title>
+<circle id="rezeptuhr" cx="15" cy="15" r="13">
+  <animate attributeName="fill" begin="click;a8.end" dur="1" repeatCount="2"
+    values="pink;green;yellow;blue;yellow;pink" id="a9"/></circle>
+<line x1="15" y1="17" x2="15" y2="6"/>
+<line x1="14" y1="14" x2="22" y2="22"/>
+  </svg>
