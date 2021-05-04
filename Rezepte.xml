@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/xsl" href="Rezepte.xsl" ?>
- <REZEPTE>
+<!--?xml-stylesheet type="text/xsl" href="http://opastefanvogel.github.io/Rezepte.xsl" ?-->
+<?xml-stylesheet type="text/xsl" href="../WO_IST_MEINE_FERNBEDIENUNG/Rezepte.xsl" ?>
+
+<REZEPTE>
 
 <REZEPT>
 <TITEL ok="lavender">Baumkuchen</TITEL>
