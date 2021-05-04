@@ -75,7 +75,7 @@
 </xsl:template>
 
 <xsl:template match="ZUBEREITUNG/a">
- <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="." /></xsl:attribute>
+ <a><xsl:attribute name="href"><xsl:value-of select="." /></xsl:attribute>
   <u><xsl:value-of select="." /></u></a>
  </xsl:template>
 

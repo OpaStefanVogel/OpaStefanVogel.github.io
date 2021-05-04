@@ -23,8 +23,14 @@ Butter schaumig schlagen. Eigelb hinzu, Zucker, Marzipanrohmasse in 50 ml heiße
 <REZEPT>
 <TITEL ok="orange">Hochzeitstorte</TITEL>
 <ZUTATEN>
+3 Tortenböden ø25, ø20, ø15
+200 g Mascarpone
+200 g Schlagsahne
+80 g Zucker
+500 g Himbeeren
 </ZUTATEN>
 <ZUBEREITUNG>
+Zuerst einen solchen <a>#Tortenboden</a> mit ø25 backen. Dann nochmal den gleichen Teig anrühren und auf zwei Backformen ø15 und ø20 auf gleiche Höhe aufteilen und backen. 15²+20²=25² ist ein pythagoreisches Zahlentripel, deshalb reicht der Teig der großen Form exakt für die beiden kleinen Formen. Schlagsahne steif schlagen und Mascarpone und Zucker unterrühren. Alle Böden in je 3 Scheiben schneiden und gefüllt mit Früchten und Schlagsahne wieder übereinander stapeln und obenauf nochmal Schlagsahne.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -165,13 +171,15 @@ Eierkuchen Nr.5 <UHR>5:00</UHR> Nr.6 <UHR>5:00</UHR> Nr.7 <UHR>5:00</UHR> Nr.8 <
 <TITEL ok="lavender">Tortenboden</TITEL>
 <ZUTATEN>
     5 Eier
+    1 Eßlöffel Wasser
+ 80? g Zucker
 ca.14 Eßlöffel Mehl
     1 Backpulver
     1 Vanillezucker
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Eier schaumig schlagen, dann 5 Eßlöffel Mehl hinzu und nochmal etwas weiter schlagen. Dann Zucker, Backpulver, Restamehl joch gründlich unterrühren und gleich in Tortenbodenbackform füllen. Erst <UHR>10:00</UHR> Miuten bei 180 °C backen, anschließend weiter <UHR>30:00</UHR> Minuten bei 150 °C. Dann in 3 Scheiben schneiden.
+Eier schaumig schlagen, dann 5 Eßlöffel Mehl hinzu und nochmal etwas weiter schlagen. Dann Zucker, Backpulver, Restmehl Vanillezucker noch gründlich unterrühren und gleich in Tortenbodenbackform füllen. Erst <UHR>10:00</UHR> Minuten bei 180 °C backen, anschließend weiter <UHR>30:00</UHR> Minuten bei 150 °C. Dann in 3 Scheiben schneiden.
 </ZUBEREITUNG>
 </REZEPT>
 
