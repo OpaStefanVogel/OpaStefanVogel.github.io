@@ -21,7 +21,7 @@ Butter schaumig schlagen. Eigelb hinzu, Zucker, Marzipanrohmasse in 50 ml heiße
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange">Hochzeitstorte</TITEL>
+<TITEL ok="lightgreen">Hochzeitstorte</TITEL>
 <ZUTATEN>
 3 Tortenböden ø25, ø20, ø15
 200 g Mascarpone
@@ -30,7 +30,7 @@ Butter schaumig schlagen. Eigelb hinzu, Zucker, Marzipanrohmasse in 50 ml heiße
 500 g Himbeeren
 </ZUTATEN>
 <ZUBEREITUNG>
-Zuerst einen solchen <a>#Tortenboden</a> mit ø25 backen. Dann nochmal den gleichen Teig anrühren und auf zwei Backformen ø15 und ø20 auf gleiche Höhe aufteilen und backen. 15²+20²=25² ist ein pythagoreisches Zahlentripel, deshalb reicht der Teig der großen Form exakt für die beiden kleinen Formen. Schlagsahne steif schlagen und Mascarpone und Zucker unterrühren. Alle Böden in je 3 Scheiben schneiden und gefüllt mit Früchten und Schlagsahne wieder übereinander stapeln und obenauf nochmal Schlagsahne.
+Zuerst diesen <a>Tortenboden</a> mit ø25 backen. Dann nochmal den gleichen Teig anrühren und auf zwei Backformen ø15 und ø20 auf gleiche Höhe aufteilen und backen. 15²+20²=25² ist ein pythagoreisches Zahlentripel, deshalb reicht der Teig der großen Form exakt für die beiden kleinen Formen. Schlagsahne steif schlagen und Mascarpone und Zucker unterrühren. Alle Böden in je 3 Scheiben schneiden und belegt mit Früchten und Schlagsahne wieder übereinander stapeln und obenauf nochmal Schlagsahne streichen.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -172,14 +172,14 @@ Eierkuchen Nr.5 <UHR>5:00</UHR> Nr.6 <UHR>5:00</UHR> Nr.7 <UHR>5:00</UHR> Nr.8 <
 <ZUTATEN>
     5 Eier
     1 Eßlöffel Wasser
- 80? g Zucker
+80? g Zucker
 ca.14 Eßlöffel Mehl
     1 Backpulver
     1 Vanillezucker
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Eier schaumig schlagen, dann 5 Eßlöffel Mehl hinzu und nochmal etwas weiter schlagen. Dann Zucker, Backpulver, Restmehl Vanillezucker noch gründlich unterrühren und gleich in Tortenbodenbackform füllen. Erst <UHR>10:00</UHR> Minuten bei 180 °C backen, anschließend weiter <UHR>30:00</UHR> Minuten bei 150 °C. Dann in 3 Scheiben schneiden.
+Eier mit dem Wasser schaumig schlagen. 5 Eßlöffel Mehl hinzu geben und nochmal etwas weiter schlagen. Dann Zucker, Vanillezucker, Backpulver, restliches Mehl nach und nach gründlich unterrühren. Teig in Tortenbodenbackform füllen. Zuerst <UHR>10:00</UHR> Minuten bei 180 °C (150 °C mit Umluft) backen, anschließend weiter <UHR>20:00</UHR> Minuten bei 150 °C (130 °C mit Umluft).
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -309,8 +309,8 @@ Salz hinzu und schmeckt auch schon so.
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Kartoffeln garkochen <UHR>15:00</UHR> Minuten, laut Originalrezept besser am Vortag, doch frisch gekocht geht auch. Dann reiben und mit Quark, Ei, Zucker, Salz, Rosinen vermischen. Auf Stufe 3 bis 4 jede Seite 3 bis 5 Minuten braten. Ca. 5 Pfannen.<a>Quarkuhr.html</a>
-<QUELLE>Kochbuch Seite 165, etwa doppelte Menge, Milch zusätzlich aus Rezept Quarkpuffer</QUELLE>
+Kartoffeln garkochen <UHR>15:00</UHR> Minuten, laut Originalrezept besser am Vortag, doch frisch gekocht geht auch. Dann reiben und mit Quark, Ei, Zucker, Salz, Rosinen vermischen. Auf Stufe 3 bis 4 jede Seite 3 bis 5 Minuten braten. Ca. 5 Pfannen.<a href="Quarkuhr.html">Quarkuhr</a>
+<QUELLE>Kochbuch Seite 165, etwa doppelte Menge, die Milch zusätzlich aus Rezept Quarkpuffer</QUELLE>
 </ZUBEREITUNG>
 
 </REZEPT>

@@ -74,18 +74,19 @@
  <span class="ZUBEREITUNG"><xsl:apply-templates /></span>
 </xsl:template>
 
-<xsl:template match="ZUBEREITUNG/a">
- <a><xsl:attribute name="href"><xsl:value-of select="." /></xsl:attribute>
-  <u><xsl:value-of select="." /></u></a>
- </xsl:template>
-
 <xsl:template match="BILD">
  <img><xsl:attribute name="src"><xsl:value-of select="." /></xsl:attribute></img>
  </xsl:template>
 
+<xsl:template match="a[@href]">
+ <a><xsl:attribute name="href"><xsl:value-of select="@href" /></xsl:attribute>
+  <xsl:attribute name="target">_blank</xsl:attribute>
+  <u><xsl:value-of select="." /></u></a>
+ </xsl:template>
+
 <xsl:template match="a">
- <a><xsl:attribute name="href" target="_blank"><xsl:value-of select="." /></xsl:attribute>
-  <u><xsl:value-of select="." /></u></a>;
+ <a><xsl:attribute name="href">#<xsl:value-of select="." /></xsl:attribute>
+  <u><xsl:value-of select="." /></u></a>
  </xsl:template>
 
 </xsl:stylesheet>

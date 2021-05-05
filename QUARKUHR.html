@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Quarkuhr</title>
+<script>
+function Sprich(was) {
+  var worte = new SpeechSynthesisUtterance(was.slice(0,150));
+  worte.lang = "de-DE";
+  window.speechSynthesis.speak(worte);
+  }
+
+Sprich("huhuu, es kann losgehen. Hast du schon den Quarkkäulchenteig fertig nach Rezept vorbereitet? Dann heize die Kochplatte vor auf Stufe 5,5 dann hinein mit den ersten Portionen Quarkkäulchen und dann drücke Button los");
+
+function los(i) {
+  //alert(event.target.nextSibling.firstChild.nodeValue);
+  if (i==0) {
+    event.target.previousElementSibling.removeAttribute("Anfangszeit");
+    var c=document.getElementById("defs").cloneNode(true);
+    c.removeAttribute("style");
+    event.target.parentNode.appendChild(c);
+    naechsterButton=c.firstElementChild;
+    }
+  if (i==1) { 
+    event.target.nextElementSibling.setAttribute("Anfangszeit",Date.now());
+    event.target.nextElementSibling.setAttribute("style","");
+    event.target.nextElementSibling.nextElementSibling.setAttribute("style","font-size:100%");
+    event.target.nextElementSibling.setAttribute("Zwischenzeit",0);
+    naechsterButton=event.target.nextElementSibling.nextElementSibling;
+    }
+  if (i==2) {
+    event.target.previousElementSibling.removeAttribute("Anfangszeit");
+    event.target.nextElementSibling.setAttribute("style","font-size:100%");
+    naechsterButton=event.target.nextElementSibling;
+    }
+  if (i==3) { 
+    event.target.nextElementSibling.setAttribute("Anfangszeit",Date.now());
+    event.target.nextElementSibling.setAttribute("style","");
+    event.target.nextElementSibling.nextElementSibling.setAttribute("style","font-size:100%");
+    event.target.nextElementSibling.setAttribute("Zwischenzeit",0);
+    naechsterButton=event.target.nextElementSibling.nextElementSibling;
+    }
+  if (i==1) Sprich("Los");
+  if (i==2) Sprich("Wenden");
+  if (i==3) Sprich("Weiter");
+  if (i==0) Sprich("Fertig. Willst du noch eine Pfanne machen, dann drücke Los in der nächsten Zeile");
+  event.target.removeAttribute("onclick")
+  window.scrollTo({
+    top: 100000,
+    left: 0,
+    behavior: 'smooth'
+    });
+  }
+
+function Quarkuhr() {
+  var Liste=document.getElementsByClassName("Stoppuhr");
+  for (var i=0;i<Liste.length;i++) {
+    var Anfangszeit=Liste[i].getAttribute("Anfangszeit");
+    if (Anfangszeit>0) {
+      var Zeit=Math.round((Date.now()-Anfangszeit)/1000);
+      var Sekunden=Zeit%60;
+      var Minuten=(Zeit-Sekunden)/60;
+      var Anzeige=Minuten+":";
+      if (Sekunden<10) Anzeige=Anzeige+"0";
+      Anzeige=Anzeige+Sekunden;
+      Liste[i].firstChild.nodeValue=Anzeige;
+      var Zwischenzeit=Liste[i].getAttribute("Zwischenzeit");
+      if (Zeit-Zwischenzeit>=60) {
+        Liste[i].setAttribute("Zwischenzeit",Zeit);
+        if (Minuten==1) { Sprich("eine Minute um") } else {
+          Sprich(Minuten+" Minuten um");
+          }
+        }
+      }
+    }
+  }
+
+setInterval(Quarkuhr,1000);
+  </script>
+  </head>
+<body style="font-size:300%">
+<div style="position:fixed; top:0px; left:000px;"><span style=" background-color:yellow; border:none" >
+  <button id="LosX" style="font-size:400%" onclick='naechsterButton.click();document.getElementById("LosX").firstChild.nodeValue=naechsterButton.firstChild.nodeValue'>LOS</button>
+  </span>
+  </div>
+<div style="min-height:220px"> </div>
+<a href="Quarkkaeulchen.xml">Quarkkaeulchen.xml</a>
+<div id="defs" style="display:none">
+  <button style="font-size:100%" onclick="los(1,'los')">Los</button>
+  <span class="Stoppuhr" Seite="1" style="display:none">0:00</span>
+  <button style="font-size:100%; display:none" onclick="los(2,'wenden')">Wenden</button>
+  <button style="font-size:100%; display:none" onclick="los(3,'weiter')">Weiter</button>
+  <span class="Stoppuhr" Seite="2" style="display:none">0:00</span>
+  <button style="font-size:100%; display:none" onclick="los(0,'fertig')">Fertig</button>
+  </div>
+<div>
+  <button id="Los1" style="font-size:100%" onclick="los(1,'los')">Los</button>
+  <span class="Stoppuhr" Seite="1" style="display:none">0:00</span>
+  <button style="font-size:100%; display:none" onclick="los(2,'wenden')">Wenden</button>
+  <button style="font-size:100%; display:none" onclick="los(3,'weiter')">Weiter</button>
+  <span class="Stoppuhr" Seite="2" style="display:none">0:00</span>
+  <button style="font-size:100%; display:none" onclick="los(0,'fertig')">Fertig</button>
+  </div>
+<script>
+var naechsterButton=document.getElementById("Los1");
+  </script>
+  </body>
+  </html>
