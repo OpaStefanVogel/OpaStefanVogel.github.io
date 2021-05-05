@@ -21,6 +21,10 @@
       </xsl:for-each>
     </textarea>
 <script src="REZEPT_UHR.js" type="text/javascript"/>
+<script>
+//alert(document.URL);
+//alert(document.documentURI);
+  </script>
   </body></html>
 </xsl:template>
 
@@ -87,6 +91,10 @@
 <xsl:template match="a">
  <a><xsl:attribute name="href">#<xsl:value-of select="." /></xsl:attribute>
   <u><xsl:value-of select="." /></u></a>
+ </xsl:template>
+
+<xsl:template match="*">
+ <xsl:copy-of select="." />
  </xsl:template>
 
 </xsl:stylesheet>
