@@ -3,6 +3,7 @@
 <xsl:template match="/REZEPTE">
 <html>
  <head>
+   <title>Rezepte</title>
    <link rel="stylesheet" type="text/css" href="Rezepte.css" />
    <style>button {font-size:100%}</style> 
    </head>
@@ -49,9 +50,25 @@
 
 <xsl:template match="TITEL">
 <div><span class="TITEL" style="vertical-align:top"><xsl:attribute name="id"><xsl:value-of select="." /></xsl:attribute>Rezept</span>
-<svg style="border:solid" width="90%" height="110px" font-family="Helvicta">
+<svg style="border:solid" width="90%" height="110px" font-family="Helvicta" font-style="">
 <text transform="scale(6,4) rotate(0) translate(0,16)" stroke="red" fill="green">
-  * *    * <xsl:value-of select="." /> * * *
+  * * * <xsl:value-of select="." /> * * *
+   <xsl:value-of select="." /> * * *
+    <xsl:value-of select="." /> * * *
+     <xsl:value-of select="." /> * * *
+      <xsl:value-of select="." /> * * *
+   <xsl:value-of select="." /> * * *
+    <xsl:value-of select="." /> * * *
+     <xsl:value-of select="." /> * * *
+      <xsl:value-of select="." /> * * *
+   <xsl:value-of select="." /> * * *
+    <xsl:value-of select="." /> * * *
+     <xsl:value-of select="." /> * * *
+      <xsl:value-of select="." /> * * *
+   <xsl:value-of select="." /> * * *
+    <xsl:value-of select="." /> * * *
+     <xsl:value-of select="." /> * * *
+      <xsl:value-of select="." /> * * *
    <xsl:value-of select="." /> * * *
     <xsl:value-of select="." /> * * *
      <xsl:value-of select="." /> * * *
