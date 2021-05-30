@@ -25,7 +25,7 @@ function Kartoffeluhr(){
         }
       NOCHZEIT=new Date(DIFFERENZ);
       if (NOCHZEIT.getSeconds()<10) {TB=":0"} else { TB = ":" };
-      node.lastChild.nodeValue=NOCHZEIT.getMinutes()+TB+NOCHZEIT.getSeconds();
+      node.lastChild.nodeValue=((NOCHZEIT.getHours()-1)*60+NOCHZEIT.getMinutes())+TB+NOCHZEIT.getSeconds();
       }
     }
   }
