@@ -123,6 +123,18 @@ Zutaten für den Teig krümelig vermischen, wenn nötig noch etwas Mehl zusätzl
 </REZEPT>
 
 <REZEPT>
+<TITEL ok="lavender">Knoblauch-Salbei-Brötchen</TITEL>
+<ZUTATEN>
+Hefetig
+1 Knoblauch
+10 Blatt Salbei
+</ZUTATEN>
+<ZUBEREITUNG>
+Knoblauch und Zalbei zerkleinern und mit zu den Zutaten für <a>Hefeteig</a> geben, daraus 4 Baguette formen und dann <UHR>10:00</UHR> Minuten 200 °C Umluft und dann nochmal <UHR>10:00</UHR> Minuten 150 °C Umluft backen.
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
 <TITEL ok="orange">Erdbeerrolle</TITEL>
 <ZUTATEN>
 </ZUTATEN>
