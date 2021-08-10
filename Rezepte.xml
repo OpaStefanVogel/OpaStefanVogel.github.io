@@ -151,14 +151,24 @@ Knoblauch und Zalbei zerkleinern und mit zu den Zutaten für <a>Hefeteig</a> geb
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange">Marmorkuchen</TITEL>
+<TITEL ok="lavender">Marmorkuchen</TITEL>
 <ZUTATEN>
+180 g Zucker
+200 g Butter (oder Schmalz oder Kokosfett)
+Zeste von einer Zitrone
+( 1 Fl Rumaroma)
+6 Eier
+Prise Salz
+nochmal 140 g Zucker
+300 g Mehl
+1/2 Tüte Backpulver
+120 ml Milch
+30 g Kakao (6 TL)
 </ZUTATEN>
 <ZUBEREITUNG>
+Eiweiß zu Eischnee schlagen mit den 140 g Zucker. Fett schaumig rühren, dabei Eigelb, 180 g Zucker hinzu. Dann ein Teil des Mehls und der Milch und Backpulver darunterrühren. Dann vorsichtig Restmehl, Restmilch und Eischnee unterheben. Die Hälfte des Teigs in die Kastenform geben. Unter die andere Hälfte den Kakao rühren und auch in die Kastenform. Mit einer Gabel beide Hälften marmorartig vermischen. Backen bei 155 C Umluft 75 Minuten. 
 </ZUBEREITUNG>
 </REZEPT>
-
-
 
 <REZEPT>
 <TITEL ok="lavender">Bauerntopf</TITEL>
@@ -202,10 +212,19 @@ kurz mit Bohnenkraut durchziehen lassen.
 <REZEPT>
 <TITEL ok="lavender">böhmische Knödel</TITEL>
 <ZUTATEN>
+2 alte Brötchen
+1/4 Liter heiße Milch
+500 g Mehl
+1 Hefe
+1 TL Salz
+2 Eier
 </ZUTATEN>
 
 <ZUBEREITUNG>
-<a>https://www.chefkoch.de/rezepte/130591056121579/Boehmischer-Knoedel.html</a></ZUBEREITUNG>
+<a>https://www.chefkoch.de/rezepte/130591056121579/Boehmischer-Knoedel.html</a>
+
+Im Prinzip einen Hefeteig machen und als Ganzes 1/2 Stunde im kochenden Wasser garen.
+</ZUBEREITUNG>
 </REZEPT>
 
 
@@ -343,6 +362,34 @@ Salz, Pfeffer, Paprika dazu.
 Auch etwas Oregano.
 Abwechselnd in Schale die Soße und 4 Platten hoch.
 Abschließend Soße, Chreme Fraiche sowie Gouda daraufreiben.
+<UHR>30:00</UHR> Minuten bei 220 °C backen und danach 
+mindestens <UHR>60:00</UHR> Minuten abkühlen lassen.
+Dazu einen Tomatensalat mit Zwiebeln.
+</ZUBEREITUNG>
+</REZEPT>
+
+
+
+<REZEPT><TITEL ok="lavender">Wildlachs-Dill-Nudel-Auflauf</TITEL>
+<ZUTATEN>
+??? g Wildlachs
+   ?? breite Bandnudeln
+100 g Gouda
+1 Bund Dill
+      Pilze
+      Pfeffer
+      Salz
+      Mehlschwitze
+</ZUTATEN>
+
+<ZUBEREITUNG>
+Bandnudeln kurz vorkochen etwa <UHR>4:00</UHR> Minuten.
+Pilze extra durchschmoren etwa <UHR>7:00</UHR> Minuten.
+Eine Soße aus <a>Mehlschwitze.xml</a> ausreichend machen.
+Salz, Pfeffer, dazu.
+Schnell noch ein Ei drunter rühren.
+Nudeln, Wildlachs, Pilze, Soße vermischen und in die Auflaufform geben.
+Abschließend Gouda daraufreiben.
 <UHR>30:00</UHR> Minuten bei 220 °C backen und danach 
 mindestens <UHR>60:00</UHR> Minuten abkühlen lassen.
 Dazu einen Tomatensalat mit Zwiebeln.
