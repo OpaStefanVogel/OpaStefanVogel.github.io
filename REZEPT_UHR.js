@@ -58,6 +58,7 @@ function CLICKI(event) {
   VORHERIGE_ZEIT=AKTUELLE_ZEIT;
   }
 function DRAGGI(event) {
+/*funktioniert nicht auf screens, wo ondragstart vor onclick ausgeführt wird oder sowas
   event.preventDefault();
   node=event.target;
   node.setAttribute("angehalten","ja");
@@ -68,6 +69,7 @@ function DRAGGI(event) {
       node.lastChild.nodeValue=node.getAttribute("Anfangszeit");
       }
   node.setAttribute("style","");
+*/
   }
 
 
