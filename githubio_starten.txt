@@ -1,0 +1,5 @@
+ls
+git pull
+gitk --all &
+pcmanfm . &
+mousepad githubio.desktop githubio.txt index.html&

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=lxterminal -e "./githubio_starten.txt&bash"
+Type=Application
+Path=/home/pi/Desktop/CLONE/githubio
+Terminal=false
+StartupNotify=true
+Icon=
