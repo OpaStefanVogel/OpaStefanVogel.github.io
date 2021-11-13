@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/xsl" href="Rezepte.xsl"?>
+<?xml-stylesheet type="text/xsl" href="WO_IST_MEINE_FERNBEDIENUNG/Rezepte.xsl"?>
 
 <REZEPTE>
 
@@ -465,7 +465,7 @@ für 5 Pfannen zu je 4 Stück:
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Kartoffeln garkochen <UHR>15:00</UHR> Minuten, laut Originalrezept besser am Vortag, doch frisch gekocht geht auch. Dann reiben und mit Quark, Ei, Zucker, Salz, Rosinen vermischen. Auf Stufe 3 bis 4 jede Seite 3 bis 5 Minuten braten <a href="Quarkuhr.html">Quarkuhr</a>.
+Kartoffeln garkochen <UHR>15:00</UHR> Minuten, laut Originalrezept besser am Vortag, doch frisch gekocht geht auch. Dann reiben und mit Quark, Ei, Zucker, Salz, Rosinen vermischen. Auf Stufe 3 bis 4 jede Seite 3 bis 5 Minuten braten <a href="WO_IST_MEINE_FERNBEDIENUNG/QUARKUHR.html">Quarkuhr</a>.
 <QUELLE>Kochbuch Seite 165, etwa doppelte Menge, die Milch zusätzlich aus Rezept Quarkpuffer</QUELLE>
 </ZUBEREITUNG>
 
