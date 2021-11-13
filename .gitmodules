@@ -1,33 +1,33 @@
 [submodule "WO_IST_MEINE_FERNBEDIENUNG"]
-	path = WO_IST_MEINE_FERNBEDIENUNG
+	path = Repositories/WO_IST_MEINE_FERNBEDIENUNG
 	url = https://@github.com/OpaStefanVogel/WO_IST_MEINE_FERNBEDIENUNG
 [submodule "KLETTERN_UND_RUTSCHEN"]
-	path = KLETTERN_UND_RUTSCHEN
+	path = Repositories/KLETTERN_UND_RUTSCHEN
 	url = https://@github.com/OpaStefanVogel/KLETTERN_UND_RUTSCHEN
 [submodule "BAKINGPI"]
-	path = BAKINGPI
+	path = Repositories/BAKINGPI
 	url = https://@github.com/OpaStefanVogel/BAKINGPI
 [submodule "RADIOPI"]
-	path = RADIOPI
+	path = Repositories/RADIOPI
 	url = https://@github.com/OpaStefanVogel/RADIOPI
 [submodule "ISOMORPHISM_GROUPS_PCLASS_2"]
-	path = ISOMORPHISM_GROUPS_PCLASS_2
+	path = Repositories/ISOMORPHISM_GROUPS_PCLASS_2
 	url = https://@github.com/OpaStefanVogel/ISOMORPHISM_GROUPS_PCLASS_2
 [submodule "PLAUENER_MODELLEISENBAHN"]
-	path = PLAUENER_MODELLEISENBAHN
+	path = Repositories/PLAUENER_MODELLEISENBAHN
 	url = https://@github.com/OpaStefanVogel/PLAUENER_MODELLEISENBAHN
 [submodule "DRUECK_EINE_BUCHSTABENTASTE"]
-	path = DRUECK_EINE_BUCHSTABENTASTE
+	path = Repositories/DRUECK_EINE_BUCHSTABENTASTE
 	url = https://@github.com/OpaStefanVogel/DRUECK_EINE_BUCHSTABENTASTE
 [submodule "FORTY-FORTH"]
-	path = FORTY-FORTH
+	path = Repositories/FORTY-FORTH
 	url = https://@github.com/OpaStefanVogel/FORTY-FORTH
 [submodule "Easy_Elektro_-_Big_Fun"]
-	path = Easy_Elektro_-_Big_Fun
+	path = Repositories/Easy_Elektro_-_Big_Fun
 	url = https://@github.com/OpaStefanVogel/Easy_Elektro_-_Big_Fun
 [submodule "HEIZUNGSPI"]
-	path = HEIZUNGSPI
+	path = Repositories/HEIZUNGSPI
 	url = https://@github.com/OpaStefanVogel/HEIZUNGSPI
 [submodule "MACHXO2"]
-	path = MACHXO2
+	path = Repositories/MACHXO2
 	url = https://@github.com/OpaStefanVogel/MACHXO2
