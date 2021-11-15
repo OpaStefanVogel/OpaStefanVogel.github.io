@@ -677,10 +677,19 @@ Quelle: Osterbrot.pdf der Sächsischen Bäckerfachschule Dresden-Helmsdorf e.V.
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange">verlorene Eier</TITEL>
+<TITEL ok="lavender">verlorene Eier</TITEL>
 <ZUTATEN>
+4           Zwiebeln
+1   Pck.    Eier
+1   Becher  Senf
+4   EL      Mehl
+100 g       Butter
+1   Pck.    Mischgemüse
+            Salz und Pfeffer
+            Kartoffeln und Möhren
 </ZUTATEN>
 <ZUBEREITUNG>
+Kartoffeln und Möhren kochen <UHR>20:00</UHR> Minuten. Eier aufschlagen und mit einer Kelle in reichlich kochendes Wasser geben und etwa <UHR>8:00</UHR> Minuten kochen. Zwiebeln schneiden und braten. Die <a>Mehlschwitze</a> zubereiten. Alles zusammen geben, mit Wasser auffüllen und nochmal etwas erhitzen. Mit Salz und Pfeffer würzen.
 </ZUBEREITUNG>
 </REZEPT>
 
