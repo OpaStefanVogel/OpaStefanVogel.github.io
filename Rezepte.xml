@@ -298,7 +298,7 @@ Eierkuchen Nr.5 <UHR>5:00</UHR> Nr.6 <UHR>5:00</UHR> Nr.7 <UHR>5:00</UHR> Nr.8 <
 <REZEPT>
 <TITEL ok="lavender">Tortenboden</TITEL>
 <ZUTATEN>
-    5 Eier (4 für Obsttortenboden)
+    6 Eier (4 für Obsttortenboden)
 180 g Zucker
 160 g Mehl
   1/2 Backpulver
@@ -694,18 +694,37 @@ Kartoffeln und Möhren kochen <UHR>20:00</UHR> Minuten. Eier aufschlagen und mit
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange">Linseneintopf</TITEL>
+<TITEL ok="lavender">Linseneintopf</TITEL>
 <ZUTATEN>
+500 g feine Linsen
+4     Zwiebeln
+8     Geflügelwiener
+1 EL  Gemüsebrühpulver
+6  Gewürzgurken
+6  Kartoffeln
+2 EL Essig
+2 EL Zuckerrübensirup
+     etwas Suppengrün
+50 g Butter
+1 EL Mehl
 </ZUTATEN>
 <ZUBEREITUNG>
+Linsen nach Packungsanleitung kochen <UHR>30:00</UHR> Minuten oder mehr in 2 l Salzwasser. Zwiebeln schneiden und dünsten. geschnittene Geflügelwiener kurz mit anschmoren. Auch die Kartoffeln kleinschneiden und kochen <UHR>20:00</UHR> Minuten. Dann die <a>Mehlschwitze</a> machen (ohne Ei). Alles zuammen rühren und mit den restlichen Zuaten nach Wunsch würzen.
 </ZUBEREITUNG>
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange"></TITEL>
+<TITEL ok="lavender">Weihnachtssternchen</TITEL>
 <ZUTATEN>
+200 g Butter- oder Margarineschmalz
+200 g Zucker
+1     Vanillezucker
+2     Eier
+400 g Mehl
+      etwas Zitronensaft
 </ZUTATEN>
 <ZUBEREITUNG>
+Butter, Zucker, Gewürz und Eier schaumig schlagen. Das Mehl unterkneten. Teig 8 bis 10 Stunden kühl gestellt rasten lassen. Ausrollen und Weihnachtssternchen ausstechen. Bei kräftiger Mittelhitze goldbraun backen.
 </ZUBEREITUNG>
 </REZEPT>
 
