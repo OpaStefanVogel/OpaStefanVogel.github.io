@@ -2,4 +2,4 @@ ls
 git pull
 pcmanfm . &
 mousepad githubio.desktop githubio_starten.txt index.html Rezepte.xml&
-gitk --all &
+(sleep 2;gitk --all) &
