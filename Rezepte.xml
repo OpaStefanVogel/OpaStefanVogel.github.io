@@ -732,13 +732,13 @@ Butter, Zucker, Gewürz und Eier schaumig schlagen. Das Mehl unterkneten. Teig 8
 <TITEL ok="lavender">Weihnachtsstollen</TITEL>
 <ZUTATEN>
 </ZUTATEN>
-<ZUBEREITUNG>nach Rezept <a>https://recipekeeperonline.com/recipe/oLpG1lhFWUKF08b4RtHS9w</a> etwas variiert.
-500 g Sult. in heißem Wasser 2 h einweichen, aber nur so heiß, daß sich das Wasser möglichst wenig verfärbt.
+<ZUBEREITUNG>nach Rezept <a href="https://recipekeeperonline.com/recipe/oLpG1lhFWUKF08b4RtHS9w">Stollen nach Helga Heilmann</a> etwas variiert.
+500 g Sultaninen in heißem Wasser 2 h einweichen, aber nur so heiß, daß sich das Wasser möglichst wenig verfärbt.
 1 kg Mehl in eine schwere Schüssel geben und in der Mitte eine Mulde machen.
 13 g Salz um die Mulde herumstreuen
-250 g Zucker etwas davon in die Mulde
+250 g Zucker, etwas davon in die Mulde
 170 ml lauwarme Milch
-4 Würfel Hefe (168 g) in die lauwarme Milch einrühren, in die Mulde geben und mit etwas Mehl vom Rand anrühren, 16 min gehen lassen
+4 Würfel Hefe (168 g) in lauwarme Milch einrühren, in die Mulde geben und mit etwas Mehl vom Rand anrühren, 15 min gehen lassen
 375+250 g Butaris zimmerwarm schaumig schlagen
 1 Vanillezucker
 300 g Mandeln gehobelt und blanchiert
@@ -746,23 +746,59 @@ Butter, Zucker, Gewürz und Eier schaumig schlagen. Das Mehl unterkneten. Teig 8
 100 g Orangeat
 1 Zitrone Saft und geriebene Schale
 
-1 h im Backofen bei 50 °C gehen lassen, dann <UHR>79</UHR> Minuten backen bei 175 °C ohne Umluft.
+1 h im Backofen bei 30 °C gehen lassen, dann <UHR>70:00</UHR> Minuten backen bei 175 °C ohne Umluft. Sobald dunkel genug, weiter  bei 150 °C.
 </ZUBEREITUNG>
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange"></TITEL>
+<TITEL ok="lavender">Apfelkuchen</TITEL>
 <ZUTATEN>
+4 Eier
+180 g Zucker
+16 El Mehl ( 160 g)
+etwas Wasser
+
+Streusel:
+50 g Butter
+8 El Mehl
 </ZUTATEN>
 <ZUBEREITUNG>
 </ZUBEREITUNG>
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange"></TITEL>
+<TITEL ok="lavender">Eierschecke</TITEL>
 <ZUTATEN>
+Boden:
+ 50  g Margarine
+ 50  g Zucker
+ 2     Eier
+100  g Mehl
+  1 TL Backpulver
+
+Chreme:
+500  g Quark (20% Fett)
+  2    Eier
+150  g Zucker
+
+Schecke:
+  1    Vanillepuddingpulver
+500 ml Milch
+125  g Butter, zerlassen
+ 75  g Zucker
+  1    Vanillezucker
+  3    Eier
 </ZUTATEN>
 <ZUBEREITUNG>
+Quelle: Dresdener Eierschecke <a href="https://www.chefkoch.de/rezepte/301151110056264/Dresdner-Eierschecke.html">https://www.chefkoch.de/rezepte/301151110056264/Dresdner-Eierschecke.html</a>
+
+Boden <UHR>10:00</UHR> Minuten vorbacken 180 °C Umluft.
+
+Dann die Chreme drauf.
+
+Für die Schecke einen Pudding mit den 75 g Zucker kochen. Eier trennen und Eiweiß extra schlagen. Zuletzt vorsichtig unterheben und Schecke auf die Chreme geben.
+
+Backen <UHR>45:00</UHR> Minuten 180 °C (sobald obendrauf zu dunkel, mit nur 150 °C weiter backen).
 </ZUBEREITUNG>
 </REZEPT>
 
