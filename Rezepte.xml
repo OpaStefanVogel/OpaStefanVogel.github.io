@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/xsl" href="Repositories/WO_IST_MEINE_FERNBEDIENUNG/Rezepte.xsl"?>
+<?xml-stylesheet type="text/xsl" href="MGit_repo/WO_IST_MEINE_FERNBEDIENUNG/Rezepte.xsl"?>
 
 <REZEPTE>
 
@@ -10,13 +10,21 @@
 100 g Weizenin
 250 g Zucker
   1   Vanillezucker
-250 g Butter
+200 g Butter
 100 g Marzipanrohmasse
   7   Eier
 1/2   Backpulver
  </ZUTATEN>
 <ZUBEREITUNG>
-Butter schaumig schlagen. Eigelb hinzu, Zucker, Marzipanrohmasse in 50 ml heißem Wasser auflösen und auch dazu. Alles verrühren. Nach und nach Mehl und Backpulver hinzugeben und auch verrühren. Zuletzt Eiweiß steif schlagen und unterheben. Schichtenweise in die Springform geben, je 3 bis 4 El mit Backpinsel verteilen. Bei 25 cm Durchmesser werden das etwa 10 Schichten. Backen mit Umluft bei 165 °C 4 min je Schicht, bei 170 °C 3 min je Schicht.
+<c/>Marzipanrohmasse weich kneten und in kleine Stückchen zerteilen. 
+<c/>Eiweiß steif schlagen und extra zur Seite stellen.
+<c/>Butter schaumig schlagen. 
+<c/>Eigelb hinzu und weiter schlagen.
+<c/>Zucker und Vanillezucker hinzu und weiter schlagen.
+<c/>Marzipanrohmasse auch dazu und verrühren bis keine Stückchen mehr zu sehen sind. 
+<c/>Nach und nach Mehl und Backpulver hinzugeben und auch verrühren. 
+<c/>Zuletzt Eiweiß locker unterheben. 
+<c/>Schichtenweise in die Springform je 3 bis 4 El mit Backpinsel verteilen und backen <u>nur Oberhitze ohne Umluft bei 170 °C etwa 4 bis 5 min</u> je Schicht bis sie schön gleichmäßig gebräunt ist. Bei 25 cm Durchmesser werden das etwa 10 Schichten.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -175,11 +183,10 @@ Eiweiß zu Eischnee schlagen mit den 140 g Zucker. Fett schaumig rühren, dabei 
 <ZUTATEN>
  2 kg Kartoffeln
 500 g Hackfleisch
-    5 mittlere Möhren 
-      Gemüsebrühpulver
-      Tomatenmark
- 50 g Butter
- 50 g Mehl
+    5 mittlere Möhren
+500 g Tomatenpüree
+ 30 g Butter
+ 2 EL Mehl
     1 Ei
       etwas saure Sahne
     3 Paprikaschoten
@@ -190,21 +197,20 @@ Eiweiß zu Eischnee schlagen mit den 140 g Zucker. Fett schaumig rühren, dabei 
       Cayenne-Pfeffer
       Paprika
       Bohnenkraut
-      paar blaue Kartoffeln
 </ZUTATEN>
-
 <ZUBEREITUNG>
-Aus Butter, Mehl und Ei eine <a>Mehlschwitze.xml</a> machen.
-Kartoffeln garkochen <UHR>15:00</UHR> Minuten, dann abgießen und abkühlen lassen.
-Hackfleisch gründlich durchbraten <UHR>10:00</UHR> Minuten, bis es richtig gar ist.
-Möhren in etwas Butter dünsten <UHR>10:00</UHR> Minuten.
-Pilze grob geschnitten anbraten.
-Paprikaschoten dünsten.
-Mehlschwitze mit Sahne anrühren
-Tomatenmark und Gemüsebrühpulver hineinrühren.
-Pfeffer und Salz und Cherry hinzugeben.
-Dosenmais hinzu.
-kurz mit Bohnenkraut durchziehen lassen.
+<c/>Aus Butter, Mehl und Ei eine dunkle <a>Mehlschwitze.xml</a> machen.
+<c/>Kartoffeln garkochen <UHR>20:00</UHR> Minuten, dann abgießen und abkühlen lassen.
+<c/>Hackfleisch gründlich anbraten und kochen <UHR>30:00</UHR> Minuten, daß es richtig gar ist.
+<c/>Möhren kochen <UHR>20:00</UHR> Minuten.
+<c/>Pilze grob geschnitten anbraten.
+<c/>Paprikaschoten dünsten.
+<c/>Mehlschwitze mit der Sahne anrühren und ans Hackfleisch geben
+<c/>Tomatenmark hineinrühren.
+<c/>Pfeffer und Salz und Cherry hinzugeben.
+<c/>Paprika hinzu, Dosenmais auch
+<c/>Kartoffeln dranschneiden
+<c/>kurz mit Bohnenkraut durchziehen lassen.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -219,7 +225,6 @@ kurz mit Bohnenkraut durchziehen lassen.
 1 TL Salz
 2 Eier
 </ZUTATEN>
-
 <ZUBEREITUNG>
 <a>https://www.chefkoch.de/rezepte/130591056121579/Boehmischer-Knoedel.html</a>
 
@@ -813,28 +818,35 @@ Rührteig für die Springform:
 1 Pck. Vanillezucker
 75 g Weizenmehl
 15 g Kakaopulver
-4 gestr.TL Backpulver
+4 gestr.TL Backpulver = etwa 1/2 bis 3/4 Pck.
 112,5 g gemahlene Haselnusskerne
 
 Belag:
 2 bis 4 Bananen
 1 Dose Mandarinen
-2 EL Zitronensaft
+2 EL Zitronensaft wenn gewünscht
 400 ml gekühlte Schlagsahne
-4 Blatt Gelantine
+4 Blatt Gelantine oder auch nur 3 oder 2
 25 g Zucker
 1 Pck. Vanillezucker
 
 </ZUTATEN>
 <ZUBEREITUNG>
-Eiweiß steif schlagen. Butaris schaumig rührebn. Zucker und Vanillezucker drunterühren. Eigelb nach und nach auf höchster Stufe unterrühren. Mehl mit Kakaopulver und Backpulver mischen, mit Haselnusskernen mischen und auf mittlerer Stufe löffelweise unterrühren. Eischnee vorsichtig unterheben. Backen 160 °C etwa <UHR>30:00</UHR> Minuten.
-
-Nach dem Backen noch 10 Minuten stehen lassen, dann aus der Form lösen und erkalten lassen. Die Deckschicht rhombusartig in 1 cm breite Streifen einschneiden und dann etwa 0,5 cm (ungefähr die feste Deckschicht) aushöhlen, dabei einen 1 cm breiten Rand stehen lassen. Die Gebäckreste aufheben.
-
-Gelantine nach Packungsanleitung einweichen. Als Füllung Bananenscheiben auf den Tortenboden verteilen und die abgetropften Mandarinen auch. Schlagsahne mit Zucker und Vanillezucker steif schlagen. Gelantine auflösen (leicht erwämen) und paar EL Schlagsahne unterrühren. Dann alles in die Schlagsahne hineinrühren und auf die Torte geben.
-
-Zum Schluß die ausgehölten Gebäckreste igelförmig auf die Tote aufstecken.
-
+<c/>Eiweiß steif schlagen. 
+<c/>Butaris schaumig rühren.
+<c/>Zucker und Vanillezucker drunterühren.
+<c/>Eigelb nach und nach auf höchster Stufe unterrühren.
+<c/>Mehl mit Kakaopulver und Backpulver mischen, mit Haselnusskernen mischen und auf mittlerer Stufe löffelweise unterrühren.
+<c/>Eischnee vorsichtig unterheben.
+<c/>Backen Ober- und Unterhitze mit Umluft 130 °C etwa <UHR>20:00</UHR> Minuten und 150 °C etwa <UHR>10:00</UHR> Minuten.
+<c/>Nach dem Backen noch 10 Minuten stehen lassen, dann aus der Form lösen und erkalten lassen.
+<c/>Die Deckschicht rhombusartig in 1 cm breite Streifen einschneiden und dann etwa 0,5 cm (ungefähr die feste Deckschicht) aushöhlen, dabei einen 1 cm breiten Rand stehen lassen. Die Gebäckreste aufheben.
+<c/>Gelantine nach Packungsanleitung einweichen.
+<c/>Als Füllung Bananenscheiben auf den Tortenboden verteilen.
+<c/>Schlagsahne mit Zucker und Vanillezucker steif schlagen. 
+<c/>Gelantine auflösen (leicht erwämen) und paar EL Schlagsahne unterrühren.
+<c/>Dann alles in die Schlagsahne hineinrühren auch die Mandarinen mit hinein und auf die Torte geben.
+<c/>Zum Schluß die ausgehölten Gebäckreste igelförmig auf die Tote aufstecken.
 (Quelle: Email vom 25.2.2022, aber viel dran herumprobiert)
 </ZUBEREITUNG>
 </REZEPT>
