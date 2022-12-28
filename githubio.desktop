@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=lxterminal -e "./githubio_starten.txt&bash"
+Exec=lxterminal -e "ls;git pull;pcmanfm . ;mousepad githubio.desktop index.html Rezepte.xml&(sleep 4;gitk --all)&bash"
 Type=Application
 Path=/home/pi/Desktop/CLONE/
 Terminal=false
