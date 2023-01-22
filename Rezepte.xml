@@ -306,7 +306,7 @@ Eierkuchen Nr.5 <UHR>5:00</UHR> Nr.6 <UHR>5:00</UHR> Nr.7 <UHR>5:00</UHR> Nr.8 <
 <REZEPT>
 <TITEL ok="lavender">Tortenboden</TITEL>
 <ZUTATEN>
-    6 Eier (4 für Obsttortenboden)
+    6 Eier (für Obsttortenboden alles halb so viel)
 180 g Zucker
 160 g Mehl
   1/2 Backpulver
@@ -314,7 +314,7 @@ Eierkuchen Nr.5 <UHR>5:00</UHR> Nr.6 <UHR>5:00</UHR> Nr.7 <UHR>5:00</UHR> Nr.8 <
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Eier schaumig schlagen. 5 Eßlöffel Mehl hinzu geben und nochmal etwas weiter schlagen. Dann Zucker, Vanillezucker, Backpulver, restliches Mehl nach und nach gründlich unterrühren. Teig in Tortenbodenbackform füllen. Zuerst <UHR>20:00</UHR> Minuten bei 130 °C (Umluft) backen, anschließend weiter <UHR>10:00</UHR> Minuten bei 150 °C (Umluft). Obsttortenboden etwas länger.
+Eier schaumig schlagen. 5 Eßlöffel Mehl hinzu geben und nochmal etwas weiter schlagen. Dann Zucker, Vanillezucker, Backpulver, restliches Mehl nach und nach gründlich unterrühren. Teig in Tortenbodenbackform füllen. Zuerst <UHR>30:00</UHR> Minuten bei 130 °C (Umluft) backen, anschließend weiter <UHR>10:00</UHR> Minuten bei 150 °C (Umluft) auf unterster Schiene. Obsttortenboden etwas länger.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -879,7 +879,7 @@ Belag:
 2 bis 4 Bananen
 1 Dose Mandarinen
 2 EL Zitronensaft wenn gewünscht
-400 ml gekühlte Schlagsahne
+400 ml <u>gekühlte</u> Schlagsahne
 4 Blatt Gelantine oder auch nur 3 oder 2
 25 g Zucker
 1 Pck. Vanillezucker
@@ -896,10 +896,10 @@ Belag:
 <c/>Nach dem Backen noch 10 Minuten stehen lassen, dann aus der Form lösen und erkalten lassen.
 <c/>Die Deckschicht rhombusartig in 1 cm breite Streifen einschneiden und dann etwa 0,5 cm (ungefähr die feste Deckschicht) aushöhlen, dabei einen 1 cm breiten Rand stehen lassen. Die Gebäckreste aufheben.
 <c/>Gelantine nach Packungsanleitung einweichen.
-<c/>Als Füllung Bananenscheiben auf den Tortenboden verteilen.
-<c/>Schlagsahne mit Zucker und Vanillezucker steif schlagen. 
+<c/>Bananen in kleine Stücke schneiden.
+<c/>Schlagsahne mit Zucker und Vanillezucker steif schlagen (vorher kaltstellen). 
 <c/>Gelantine auflösen (leicht erwämen) und paar EL Schlagsahne unterrühren.
-<c/>Dann alles in die Schlagsahne hineinrühren auch die Mandarinen mit hinein und auf die Torte geben.
+<c/>Dann alles in die Schlagsahne hineinrühren auch die Bananenstücke und Mandarinen mit hinein und auf die Torte geben.
 <c/>Zum Schluß die ausgehölten Gebäckreste igelförmig auf die Tote aufstecken.
 (Quelle: Email vom 25.2.2022, aber viel dran herumprobiert)
 </ZUBEREITUNG>
