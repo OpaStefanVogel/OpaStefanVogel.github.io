@@ -944,6 +944,34 @@ Vor dem Servieren mit Puderzucker bestreuen.
 </REZEPT>
 
 <REZEPT>
+<TITEL ok="lavender">Rotkraut</TITEL>
+<ZUTATEN>
+1 Rotkraut
+1 Zwiebel
+etwas Butter
+1 EL Zucker
+1/4 l Traubensaft (anstelle Rotwein)
+200 ml Wasser wenn nötig mehr
+Salz
+Pfeffer
+1 TL gemahlener Kümmel
+2 mittlere sauere Äpfel
+(etwas Essig)
+(etwas Zitronensaft)
+</ZUTATEN>
+<ZUBEREITUNG>
+ungefähr nach dem Video <a href="https://www.youtube.com/watch?v=PzZITrpLqNA">Rotkraut (Blaukraut) - KuechenSchelle</a>
+<c/>Zwiebeln in der NButter anschwitzen
+<c/>die Zwiebeln mit dem Zucker karamelisieren
+<c/>das kleingeschnittene Rotkraut dazugeben und etwas mit schmoren
+<c/>Traubensaft und Wasser hinzugeben
+<c/>Gewürze dazugeben
+<c/>eventuell etwas Essig und etwas Zitronensaft hinzugeben
+<c/>30 bis <UHR>45:00</UHR> Minuten dünsten
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
 <TITEL ok="orange"></TITEL>
 <ZUTATEN>
 </ZUTATEN>
