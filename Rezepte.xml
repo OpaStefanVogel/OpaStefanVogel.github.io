@@ -146,10 +146,32 @@ Knoblauch und Zalbei zerkleinern und mit zu den Zutaten für <a>Hefeteig</a> geb
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange">Erdbeerrolle</TITEL>
+<TITEL ok="lavender">Erdbeerrolle</TITEL>
 <ZUTATEN>
+4 Eier
+150 g Zucker
+80 g Mehl
+80 g Speisestärke
+4 EL Wasser
+1/2 Backpulver
+1 Vanillezucker
+
+200 ml Schlagsahne
+200 g Erdbeermarmelade 
 </ZUTATEN>
 <ZUBEREITUNG>
+<c/>Eiweiß steif schlagen
+<c/>Eigelb schaumig rühren mit dem Zucker und Vanillezucker
+<c/>das Wasser dazu
+<c/>Mehl und Backpulver drunterrühren
+<c/>Eiweiß vorsichtig unterheben
+<c/>aufs große Backblech streichen
+<c/>bei 200 °C etwa 10 bis <UHR>15:00</UHR> Minuten backen bis leichte Bräunung
+<c/>etwas abkühlen lassen
+<c/>Schlagsahne schlagen
+<c/>die Erdbeermarmelade verrühren und unter die Schlagsahne heben
+<c/>Aufrollen und kühl stellen
+<c/>vo dem Servieren mit etwas Puderzucker bestäuben
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -933,7 +955,7 @@ Puderzucker zum Bestäuben
 <c/>nach und nach Zucker Vanillezucker und Salz hinzugeben. 
 <c/>Jedes Ei etwa 1/2 Minute auf höchster Stufe unterrühren. 
 <c/>Mehl und Backpulver mischen und löffelweise unterrühren. 
-<c/>Backen 130 °C Umluft etwa <UHR>25:00</UHR> Minuten und 150 °c etwa 2 Minuten.
+<c/>Backen 130 °C Umluft etwa <UHR>25:00</UHR> Minuten und 150 °C etwa 2 Minuten.
 
 <c/>Boden aus der Form lösen, erkalten lassen und dann waagerecht halbieren.
 
@@ -974,7 +996,7 @@ Pfeffer
 </ZUTATEN>
 <ZUBEREITUNG>
 ungefähr nach dem Video <a href="https://www.youtube.com/watch?v=PzZITrpLqNA">Rotkraut (Blaukraut) - KuechenSchelle</a>
-<c/>Zwiebeln in der NButter anschwitzen
+<c/>Zwiebeln in der Butter anschwitzen
 <c/>die Zwiebeln mit dem Zucker karamelisieren
 <c/>das kleingeschnittene Rotkraut dazugeben und etwas mit schmoren
 <c/>Traubensaft und Wasser hinzugeben
