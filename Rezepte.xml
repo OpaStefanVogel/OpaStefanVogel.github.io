@@ -57,7 +57,7 @@ für 5 Klöße:
       Salz
 </ZUTATEN>
 <ZUBEREITUNG>
-Kartoffeln garkochen <UHR>15:00</UHR> Minuten. In der Zwischenzeit Semmelwürfel schneiden und in etwas Butterschmalz knusprig braten und dabei leicht salzen. Gekochte Kartoffeln abgießen, gründlich ausdampfen lassen, dann stampfen. Kartoffelstärke, Butterschmalz, Eigelb und etwas Salz locker unterrühren. 5 Klöße formen mit den Semmelwürfeln als Füllung. In leicht siedendem Wasser <UHR>10:00</UHR> Minuten ziehen lassen. Quelle: youtube
+Kartoffeln garkochen <UHR Sprich="Kartoffeln">15:00</UHR> Minuten. In der Zwischenzeit Semmelwürfel schneiden und in etwas Butterschmalz knusprig braten und dabei leicht salzen. Gekochte Kartoffeln abgießen, gründlich ausdampfen lassen, dann stampfen. Kartoffelstärke, Butterschmalz, Eigelb und etwas Salz locker unterrühren. 5 Klöße formen mit den Semmelwürfeln als Füllung. In leicht siedendem Wasser <UHR Sprich="Klöße">10:00</UHR> Minuten ziehen lassen. Quelle: youtube
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -83,7 +83,7 @@ Streusel:
 3,5 EL   Kakao
 </ZUTATEN>
 <ZUBEREITUNG>
-Zuerst die 3 Pudding kochen (eher wenig Zucker reicht) und etwas abkühlen lassen. Dann den <a>Hefeteig</a> vorbereiten und aufs Backblech ausrollen. Pudding darauf verteilen. Streuselzutaten schnell verrühren und feinkrümelig auf der Puddingfüllung verteilen. Backen 20 bis <UHR>30:00</UHR> Minuten bei 200 °C Ober- und Unterhitze. Nach dem Abkühlen Schokoglasur gleichmäßig verteilen.
+Zuerst die 3 Pudding kochen (eher wenig Zucker reicht) und etwas abkühlen lassen. Dann den <a>Hefeteig</a> vorbereiten und aufs Backblech ausrollen. Pudding darauf verteilen. Streuselzutaten schnell verrühren und feinkrümelig auf der Puddingfüllung verteilen. Backen 20 bis <UHR Sprich="Puddingstreusel">30:00</UHR> Minuten bei 200 °C Ober- und Unterhitze. Nach dem Abkühlen Schokoglasur gleichmäßig verteilen.
 
 Dieses Rezept ist von Sabine's Tante Isolde.
 </ZUBEREITUNG>
@@ -102,7 +102,7 @@ für das große Backblech .. cm x .. cm
        extra Mehl und Wasser
 </ZUTATEN>
 <ZUBEREITUNG>
-Wasser, Milch, Zucker, Salz und Ei verrühren und leicht erwärmen (lauwarm). Hefe hineinbröckeln und auch verrühren. Alles ins Mehl in eine Mulde gießen und von innen nach außen verrühren. Wenn zu fest, noch etwas Wasser hinzu, wenn zu flüssig, noch etwas Mehl hinzu. Am Schluß soll der Teig außen nicht mehr kleben, damit man Brötchen formen oder den Teig auf das Backblech ausrollen kann. Bei 80 °C etwa <UHR>10:00</UHR> Minuten im Backofen gehen lassen, dann backen je nach Rezept.
+Wasser, Milch, Zucker, Salz und Ei verrühren und leicht erwärmen (lauwarm). Hefe hineinbröckeln und auch verrühren. Alles ins Mehl in eine Mulde gießen und von innen nach außen verrühren. Wenn zu fest, noch etwas Wasser hinzu, wenn zu flüssig, noch etwas Mehl hinzu. Am Schluß soll der Teig außen nicht mehr kleben, damit man Brötchen formen oder den Teig auf das Backblech ausrollen kann. Bei 80 °C etwa <UHR Sprich="Hefeteig">10:00</UHR> Minuten im Backofen gehen lassen, dann backen je nach Rezept.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -129,7 +129,7 @@ Füllung:
 
 </ZUTATEN>
 <ZUBEREITUNG>
-Zutaten für den Teig krümelig vermischen, wenn nötig noch etwas Mehl zusätzlich dazu. 2/3 der Krümel in der Springform als Boden und Rand andrücken. Zutaten für die Füllung verrühren, zuletzt die Mandarinen hinzugeben und in die Teigform füllen. Den restlichen Teig als Streusel obenauf geben. Bei 170 °C Umluft etwa <UHR>80:00</UHR> Minuten backen.
+Zutaten für den Teig krümelig vermischen, wenn nötig noch etwas Mehl zusätzlich dazu. 2/3 der Krümel in der Springform als Boden und Rand andrücken. Zutaten für die Füllung verrühren, zuletzt die Mandarinen hinzugeben und in die Teigform füllen. Den restlichen Teig als Streusel obenauf geben. Bei 170 °C Umluft etwa <UHR Sprich="Zupfkuchen">80:00</UHR> Minuten backen.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -141,7 +141,7 @@ Hefetig
 10 Blatt Salbei
 </ZUTATEN>
 <ZUBEREITUNG>
-Knoblauch und Zalbei zerkleinern und mit zu den Zutaten für <a>Hefeteig</a> geben, daraus 4 Baguette formen und dann <UHR>10:00</UHR> Minuten 200 °C Umluft und dann nochmal <UHR>10:00</UHR> Minuten 150 °C Umluft backen.
+Knoblauch und Zalbei zerkleinern und mit zu den Zutaten für <a>Hefeteig</a> geben, daraus 4 Baguette formen und dann <UHR Sprich="Knoblauch Salbei Brötchen">10:00</UHR> Minuten 200 °C Umluft und dann nochmal <UHR Sprich="Knoblauch Salbei Brötchen">10:00</UHR> Minuten 150 °C Umluft backen.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -166,7 +166,7 @@ Knoblauch und Zalbei zerkleinern und mit zu den Zutaten für <a>Hefeteig</a> geb
 <c/>Mehl und Backpulver drunterrühren
 <c/>Eiweiß vorsichtig unterheben
 <c/>aufs große Backblech streichen
-<c/>bei 200 °C etwa 10 bis <UHR>15:00</UHR> Minuten backen bis leichte Bräunung
+<c/>bei 200 °C etwa <UHR Sprich="Erdbeerrolle">10:00</UHR> Minuten backen bis leichte Bräunung
 <c/>etwas abkühlen lassen
 <c/>Schlagsahne schlagen
 <c/>die Erdbeermarmelade verrühren und unter die Schlagsahne heben
@@ -225,9 +225,9 @@ Eiweiß zu Eischnee schlagen mit den 140 g Zucker. Fett schaumig rühren, dabei 
 </ZUTATEN>
 <ZUBEREITUNG>
 <c/>Aus Butter, Mehl und Ei eine dunkle <a>Mehlschwitze.xml</a> machen.
-<c/>Kartoffeln garkochen <UHR>20:00</UHR> Minuten, dann abgießen und abkühlen lassen.
-<c/>Hackfleisch gründlich anbraten und kochen <UHR>30:00</UHR> Minuten, daß es richtig gar ist.
-<c/>Möhren kochen <UHR>20:00</UHR> Minuten.
+<c/>Kartoffeln garkochen <UHR Sprich="Kartoffeln">20:00</UHR> Minuten, dann abgießen und abkühlen lassen.
+<c/>Hackfleisch gründlich anbraten und kochen <UHR Sprich="Hackfleisch">30:00</UHR> Minuten, daß es richtig gar ist.
+<c/>Möhren kochen <UHR Sprich="Möhren">20:00</UHR> Minuten.
 <c/>Pilze grob geschnitten anbraten.
 <c/>Paprikaschoten dünsten.
 <c/>Mehlschwitze mit der Sahne anrühren und ans Hackfleisch geben
@@ -290,7 +290,7 @@ für den Belag:
 <ZUBEREITUNG>
 Die Kirschen auftauen, abtropfen und ausreichend zuckern.
 
-Eier schaumig schlagen, dann 6 Eßlöffel Mehl hinzu und nochmal etwas weiter schlagen. Dann Zucker, Backpulver, Restmehl noch gründlich unterrühren und zwischendurch etwas Wasser wenn zu dickflüssig. 3 min rühren. Dann 2/3 aufs Backblech und in das restliche 1/3 den Kakao unterrühren und nochmal etwas Wasser falls zu dickflüssig. Dann gleichmäßig auf dem hellen Teig obenauf verteilen und die Kirschen auch mit drauf. <UHR>40:00</UHR> min auf 170 °C backen.
+Eier schaumig schlagen, dann 6 Eßlöffel Mehl hinzu und nochmal etwas weiter schlagen. Dann Zucker, Backpulver, Restmehl noch gründlich unterrühren und zwischendurch etwas Wasser wenn zu dickflüssig. 3 min rühren. Dann 2/3 aufs Backblech und in das restliche 1/3 den Kakao unterrühren und nochmal etwas Wasser falls zu dickflüssig. Dann gleichmäßig auf dem hellen Teig obenauf verteilen und die Kirschen auch mit drauf. <UHR Sprich="Donauwelle">40:00</UHR> min auf 170 °C backen.
 
 Für den Belag 2 Pudding kochen mit nur 3/4 l Milch. Unter Rühren abkühlen. Butter schaumig schlagen und Pudding löffelweise unterrühren, so daß es fast eine Butterchreme wird. Auf dem abgekühlten Kuchen verteilen.
 
@@ -318,8 +318,8 @@ Mit Salz würzen.
 Auf Stufe 6 je Seite 1 bis 2 min aufbacken.
 Es werden 8 Stück.
 
-Eierkuchen Nr.1 <UHR>5:00</UHR> Nr.2 <UHR>5:00</UHR> Nr.3 <UHR>5:00</UHR> Nr.4 <UHR>5:00</UHR>
-Eierkuchen Nr.5 <UHR>5:00</UHR> Nr.6 <UHR>5:00</UHR> Nr.7 <UHR>5:00</UHR> Nr.8 <UHR>5:00</UHR>
+Eierkuchen Nr.1 <UHR Sprich="Eierkuchen 1">5:00</UHR> Nr.2 <UHR Sprich="Eierkuchen 2">5:00</UHR> Nr.3 <UHR Sprich="Eierkuchen 3">5:00</UHR> Nr.4 <UHR Sprich="Eierkuchen 4">5:00</UHR>
+Eierkuchen Nr.5 <UHR Sprich="Eierkuchen 5">5:00</UHR> Nr.6 <UHR Sprich="Eierkuchen 6">5:00</UHR> Nr.7 <UHR Sprich="Eierkuchen 7">5:00</UHR> Nr.8 <UHR Sprich="Eierkuchen 8">5:00</UHR>
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -336,7 +336,7 @@ Eierkuchen Nr.5 <UHR>5:00</UHR> Nr.6 <UHR>5:00</UHR> Nr.7 <UHR>5:00</UHR> Nr.8 <
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Eier schaumig schlagen. 5 Eßlöffel Mehl hinzu geben und nochmal etwas weiter schlagen. Dann Zucker, Vanillezucker, Backpulver, restliches Mehl nach und nach gründlich unterrühren. Teig in Tortenbodenbackform füllen. Zuerst <UHR>30:00</UHR> Minuten bei 130 °C (Umluft) backen, anschließend weiter <UHR>10:00</UHR> Minuten bei 150 °C (Umluft) auf unterster Schiene. Obsttortenboden etwas länger.
+Eier schaumig schlagen. 5 Eßlöffel Mehl hinzu geben und nochmal etwas weiter schlagen. Dann Zucker, Vanillezucker, Backpulver, restliches Mehl nach und nach gründlich unterrühren. Teig in Tortenbodenbackform füllen. Zuerst <UHR Sprich="Tortenboden">30:00</UHR> Minuten bei 130 °C (Umluft) backen, anschließend weiter <UHR Sprich="Tortenboden">10:00</UHR> Minuten bei 150 °C (Umluft) auf unterster Schiene. Obsttortenboden etwas länger.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -357,7 +357,7 @@ Eier schaumig schlagen. 5 Eßlöffel Mehl hinzu geben und nochmal etwas weiter s
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Kartoffel schälen, <UHR>20:00</UHR> Minuten kochen, dann durchdrücken. Dazwischen Bauchspeck kleinschneiden und anbraten. Passend geschnittene Zwiebeln dazutun, kurz mitbraten und anschließend mit etwas Wasser <UHR>10:00</UHR> Minuten kochen, bis alles gar ist. Möhren schälen, in dünne Scheiben schneiden, mit etwas Butter kurz dünsten, dann ein wenig Wasser dazugeben und auch etwa <UHR>10:00</UHR> Minuten fertiggaren. Alles zusammenrühren. Brühpulver und Gewürze nach und nach hinzugeben und etwas <a>Mehlschwitze.xml</a> und ausreichend Wasser. Alle Zeiten passend variieren, so daß die Zutaten einzeln genau richtig zubereitet sind. Auch die Mengen kann man noch variieren, so wie die Kartoffelsuppe heute werden soll.
+Kartoffel schälen, <UHR Sprich="Kartoffeln">20:00</UHR> Minuten kochen, dann durchdrücken. Dazwischen Bauchspeck kleinschneiden und anbraten. Passend geschnittene Zwiebeln dazutun, kurz mitbraten und anschließend mit etwas Wasser <UHR Sprich="Bauchsoevk">10:00</UHR> Minuten kochen, bis alles gar ist. Möhren schälen, in dünne Scheiben schneiden, mit etwas Butter kurz dünsten, dann ein wenig Wasser dazugeben und auch etwa <UHR Sprich="Möhren">10:00</UHR> Minuten fertiggaren. Alles zusammenrühren. Brühpulver und Gewürze nach und nach hinzugeben und etwas <a>Mehlschwitze.xml</a> und ausreichend Wasser. Alle Zeiten passend variieren, so daß die Zutaten einzeln genau richtig zubereitet sind. Auch die Mengen kann man noch variieren, so wie die Kartoffelsuppe heute werden soll.
 
 
 </ZUBEREITUNG>
@@ -384,16 +384,16 @@ Kartoffel schälen, <UHR>20:00</UHR> Minuten kochen, dann durchdrücken. Dazwisc
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Hackfleisch anbraten <UHR>7:00</UHR> Minuten.
-Danach Pilze extra durchschmoren auch etwa <UHR>7:00</UHR> Minuten.
+Hackfleisch anbraten <UHR Sprich="Hackfleisch">7:00</UHR> Minuten.
+Danach Pilze extra durchschmoren auch etwa <UHR Sprich="Pilze">7:00</UHR> Minuten.
 Tomatendose und Tomatenmark hinzugeben,
 Mit Wasser und etwas <a>Mehlschwitze.xml</a> ausreichend strecken.
 Salz, Pfeffer, Paprika dazu.
 Auch etwas Oregano.
 Abwechselnd in Schale die Soße und 4 Platten hoch.
 Abschließend Soße, Chreme Fraiche sowie Gouda daraufreiben.
-<UHR>30:00</UHR> Minuten bei 220 °C backen und danach 
-mindestens <UHR>60:00</UHR> Minuten abkühlen lassen.
+<UHR Sprich="Lasagne">30:00</UHR> Minuten bei 220 °C backen und danach 
+mindestens <UHR Sprich="Lasagne">60:00</UHR> Minuten abkühlen lassen.
 Dazu einen Tomatensalat mit Zwiebeln.
 </ZUBEREITUNG>
 </REZEPT>
@@ -413,15 +413,15 @@ Dazu einen Tomatensalat mit Zwiebeln.
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Bandnudeln kurz vorkochen etwa <UHR>4:00</UHR> Minuten.
-Pilze extra durchschmoren etwa <UHR>7:00</UHR> Minuten.
+Bandnudeln kurz vorkochen etwa <UHR Sprich="Nudeln">4:00</UHR> Minuten.
+Pilze extra durchschmoren etwa <UHR Sprich="Pilze">7:00</UHR> Minuten.
 Eine Soße aus <a>Mehlschwitze.xml</a> ausreichend machen.
 Salz, Pfeffer, dazu.
 Schnell noch ein Ei drunter rühren.
 Nudeln, Wildlachs, Pilze, Soße vermischen und in die Auflaufform geben.
 Abschließend Gouda daraufreiben.
-<UHR>30:00</UHR> Minuten bei 220 °C backen und danach 
-mindestens <UHR>60:00</UHR> Minuten abkühlen lassen.
+<UHR Sprich="Auflauf">30:00</UHR> Minuten bei 220 °C backen und danach 
+mindestens <UHR Sprich="Auflauf">60:00</UHR> Minuten abkühlen lassen.
 Dazu einen Tomatensalat mit Zwiebeln.
 </ZUBEREITUNG>
 </REZEPT>
@@ -439,7 +439,7 @@ Dazu einen Tomatensalat mit Zwiebeln.
 </ZUTATEN>
 
 <ZUBEREITUNG>
-<UHR>20:00</UHR> Minuten bei 150 °C backen, nach 10 min das Backblech umdrehen, damit die hinteren nicht dunkel und die vorderen nicht hell werden.
+<UHR Sprich="Makronen">20:00</UHR> Minuten bei 150 °C backen, nach 10 min das Backblech umdrehen, damit die hinteren nicht dunkel und die vorderen nicht hell werden.
 </ZUBEREITUNG>
 
 </REZEPT>
@@ -495,7 +495,7 @@ für 5 Pfannen zu je 4 Stück:
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Kartoffeln garkochen <UHR>15:00</UHR> Minuten, laut Originalrezept besser am Vortag, doch frisch gekocht geht auch. Dann reiben und mit Quark, Ei, Zucker, Salz, Rosinen vermischen. Auf Stufe 3 bis 4 jede Seite 3 bis 5 Minuten braten <a href="Repositories/WO_IST_MEINE_FERNBEDIENUNG/QUARKUHR.html">Quarkuhr</a>.
+Kartoffeln garkochen <UHR Sprich="Kartoffeln">15:00</UHR> Minuten, laut Originalrezept besser am Vortag, doch frisch gekocht geht auch. Dann reiben und mit Quark, Ei, Zucker, Salz, Rosinen vermischen. Auf Stufe 3 bis 4 jede Seite 3 bis 5 Minuten braten <a href="Repositories/WO_IST_MEINE_FERNBEDIENUNG/QUARKUHR.html">Quarkuhr</a>.
 <QUELLE>Kochbuch Seite 165, etwa doppelte Menge, die Milch zusätzlich aus Rezept Quarkpuffer</QUELLE>
 </ZUBEREITUNG>
 
@@ -585,7 +585,7 @@ Quelle: hat Birgit mitgebracht ein Rezept von Bekannten
       Pfeffer
 </ZUTATEN>
 <ZUBEREITUNG>
-Graupen nach Packungsanleitung kochen. Poree schneiden und einen kleinen Teil davon leicht anbraten, da Hackfleisch dazu und auch mit anbraten, dann etwa <UHR>30:00</UHR> Minuten kochen. Pilze schneiden und leicht schmoren. Kartoffeln und Möhren schneiden und <UHR>20:00</UHR> Minuten kochen. Alles zusammen würzen nach Bedarf Salz und Pfeffer.
+Graupen nach Packungsanleitung kochen. Poree schneiden und einen kleinen Teil davon leicht anbraten, da Hackfleisch dazu und auch mit anbraten, dann etwa <UHR Sprich="Porree">30:00</UHR> Minuten kochen. Pilze schneiden und leicht schmoren. Kartoffeln und Möhren schneiden und <UHR Sprich="Kartoffeln und Möhren">20:00</UHR> Minuten kochen. Alles zusammen würzen nach Bedarf Salz und Pfeffer.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -719,7 +719,7 @@ Quelle: Osterbrot.pdf der Sächsischen Bäckerfachschule Dresden-Helmsdorf e.V.
             Kartoffeln und Möhren
 </ZUTATEN>
 <ZUBEREITUNG>
-Kartoffeln und Möhren kochen <UHR>20:00</UHR> Minuten. Eier aufschlagen und mit einer Kelle in reichlich kochendes Wasser geben und etwa <UHR>8:00</UHR> Minuten kochen. Zwiebeln schneiden und braten. Die <a>Mehlschwitze</a> zubereiten. Alles zusammen geben, mit Wasser auffüllen und nochmal etwas erhitzen. Mit Salz und Pfeffer würzen.
+Kartoffeln und Möhren kochen <UHR Sprich="Kartoffeln und Möhren">20:00</UHR> Minuten. Eier aufschlagen und mit einer Kelle in reichlich kochendes Wasser geben und etwa <UHR Sprich="Eier">8:00</UHR> Minuten kochen. Zwiebeln schneiden und braten. Die <a>Mehlschwitze</a> zubereiten. Alles zusammen geben, mit Wasser auffüllen und nochmal etwas erhitzen. Mit Salz und Pfeffer würzen.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -740,11 +740,11 @@ Kartoffeln und Möhren kochen <UHR>20:00</UHR> Minuten. Eier aufschlagen und mit
 1 EL  Mehl
 </ZUTATEN>
 <ZUBEREITUNG>
-<c/>Linsen nach Packungsanleitung kochen <UHR>30:00</UHR> Minuten oder mehr in 2 l Salzwasser mit einer Speckschwarte. 
+<c/>Linsen nach Packungsanleitung kochen <UHR Sprich="Linsen">30:00</UHR> Minuten oder mehr in 2 l Salzwasser mit einer Speckschwarte. 
 <c/>eine <a>Mehlschwitze</a> machen mit Ei und mit zu den kochenden Linsen tun.
 <c/>Zwiebeln schneiden und dünsten. geschnittene Geflügelwiener kurz mit anschmoren. 
-<c/>Gurken schneiden und mit zu den Zwiebeln tun und <UHR>5:00</UHR> Minuten aufkochen.
-<c/>Auch die Kartoffeln kleinschneiden und kochen <UHR>20:00</UHR> Minuten zusammen mit paar Möhrenstücken. 
+<c/>Gurken schneiden und mit zu den Zwiebeln tun und <UHR Sprich="Zwiebeln">5:00</UHR> Minuten aufkochen.
+<c/>Auch die Kartoffeln kleinschneiden und kochen <UHR Sprich="Kartoffeln">20:00</UHR> Minuten zusammen mit paar Möhrenstücken. 
 <c/>Alles zuammen rühren und mit den restlichen Zuaten nach Wunsch würzen.
 </ZUBEREITUNG>
 </REZEPT>
@@ -794,7 +794,7 @@ Butter, Zucker, Gewürz und Eier schaumig schlagen. Das Mehl unterkneten. Teig 8
 <c/>50 g Orangeat
 <c/>1/2 Zitrone Saft und geriebene Schale
 <c/>Rosinen abdecken
-<c/>1 h im Backofen bei 30 °C gehen lassen, dann <UHR>70:00</UHR> Minuten backen bei 175 °C ohne Umluft. Sobald dunkel genug, weiter  bei 150 °C.
+<c/>1 h im Backofen bei 30 °C gehen lassen, dann <UHR Sprich="Weihnachtsstollen">70:00</UHR> Minuten backen bei 175 °C ohne Umluft. Sobald dunkel genug, weiter  bei 150 °C.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -827,7 +827,7 @@ Butter, Zucker, Gewürz und Eier schaumig schlagen. Das Mehl unterkneten. Teig 8
 <c/>nochmal gründlich durchkneten
 <c/>flach aufs Backblech verteilen
 <c/>herausstehende Rosinen abdecken (Teigmischung aus 3EL Mehl, 2EL Zucker, 5EL Milch)
-<c/>Etwa <UHR>35:00</UHR> Minuten backen bei 170 °C ohne Umluft, bis der Stollenteigkuchen dunkel genug geworden ist.
+<c/>Etwa <UHR Sprich="Quarkstollen">35:00</UHR> Minuten backen bei 170 °C ohne Umluft, bis der Stollenteigkuchen dunkel genug geworden ist.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -873,13 +873,13 @@ Schecke:
 <ZUBEREITUNG>
 Quelle: Dresdener Eierschecke <a href="https://www.chefkoch.de/rezepte/301151110056264/Dresdner-Eierschecke.html">https://www.chefkoch.de/rezepte/301151110056264/Dresdner-Eierschecke.html</a>
 
-Boden <UHR>10:00</UHR> Minuten vorbacken 180 °C Umluft.
+Boden <UHR Sprich="Boden">10:00</UHR> Minuten vorbacken 180 °C Umluft.
 
 Dann die Chreme drauf.
 
 Für die Schecke einen Pudding mit den 75 g Zucker kochen. Eier trennen und Eiweiß extra schlagen. Zuletzt vorsichtig unterheben und Schecke auf die Chreme geben.
 
-Backen <UHR>45:00</UHR> Minuten 180 °C (sobald obendrauf zu dunkel, mit nur 150 °C weiter backen).
+Backen <UHR Sprich="Eierschecke">45:00</UHR> Minuten 180 °C (sobald obendrauf zu dunkel, mit nur 150 °C weiter backen).
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -914,7 +914,7 @@ Belag:
 <c/>Eigelb nach und nach auf höchster Stufe unterrühren.
 <c/>Mehl mit Kakaopulver und Backpulver mischen, mit Haselnusskernen mischen und auf mittlerer Stufe löffelweise unterrühren.
 <c/>Eischnee vorsichtig unterheben.
-<c/>Backen Ober- und Unterhitze mit Umluft 130 °C etwa <UHR>20:00</UHR> Minuten und 150 °C etwa <UHR>10:00</UHR> Minuten.
+<c/>Backen Ober- und Unterhitze mit Umluft 130 °C etwa <UHR Sprich="Boden">20:00</UHR> Minuten und 150 °C etwa <UHR Sprich="Boden">10:00</UHR> Minuten.
 <c/>Nach dem Backen noch 10 Minuten stehen lassen, dann aus der Form lösen und erkalten lassen.
 <c/>Die Deckschicht rhombusartig in 1 cm breite Streifen einschneiden und dann etwa 0,5 cm (ungefähr die feste Deckschicht) aushöhlen, dabei einen 1 cm breiten Rand stehen lassen. Die Gebäckreste aufheben.
 <c/>Gelantine nach Packungsanleitung einweichen.
@@ -955,7 +955,7 @@ Puderzucker zum Bestäuben
 <c/>nach und nach Zucker Vanillezucker und Salz hinzugeben. 
 <c/>Jedes Ei etwa 1/2 Minute auf höchster Stufe unterrühren. 
 <c/>Mehl und Backpulver mischen und löffelweise unterrühren. 
-<c/>Backen 130 °C Umluft etwa <UHR>25:00</UHR> Minuten und 150 °C etwa 2 Minuten.
+<c/>Backen 130 °C Umluft etwa <UHR Sprich="Tortenboden">25:00</UHR> Minuten und 150 °C etwa 2 Minuten.
 
 <c/>Boden aus der Form lösen, erkalten lassen und dann waagerecht halbieren.
 
@@ -1002,7 +1002,7 @@ ungefähr nach dem Video <a href="https://www.youtube.com/watch?v=PzZITrpLqNA">R
 <c/>Traubensaft und Wasser hinzugeben
 <c/>Gewürze dazugeben
 <c/>eventuell etwas Essig und etwas Zitronensaft hinzugeben
-<c/>30 bis <UHR>45:00</UHR> Minuten dünsten
+<c/>30 bis <UHR Sprich="Rotkraut">45:00</UHR> Minuten dünsten
 </ZUBEREITUNG>
 </REZEPT>
 
