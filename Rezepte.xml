@@ -38,7 +38,7 @@
 200 g Mascarpone
 200 g Schlagsahne
 80 g Zucker
-500 g portugiesische Himbeeren
+500 g Himbeeren
 </ZUTATEN>
 <ZUBEREITUNG>
 Zuerst einen <a>Tortenboden</a> mit ø25 backen. Dann nochmal den gleichen Teig anrühren und auf zwei Backformen ø20 und ø15 auf gleiche Höhe aufteilen und backen. 15²+20²=25² ist ein <a href="https://fr.wikipedia.org/wiki/Triplet_pythagoricien">Triplet pythagoricien</a>, deshalb reicht der Teig der großen Form exakt für die beiden kleinen Formen. Schlagsahne steif schlagen und Mascarpone und Zucker unterrühren. Alle Böden in je 3 Scheiben schneiden, mit Früchten und Schlagsahne belegen und dann wieder übereinander stapeln. Obenauf nochmal Schlagsahne streichen und an den Seiten auch.
@@ -329,15 +329,20 @@ Eierkuchen Nr.5 <UHR Sprich="Eierkuchen 5">5:00</UHR> Nr.6 <UHR Sprich="Eierkuch
 <REZEPT>
 <TITEL ok="lavender">Tortenboden</TITEL>
 <ZUTATEN>
-    6 Eier (für Obsttortenboden alles halb so viel)
-180 g Zucker
-160 g Mehl
+    6 Eier getrennt (für Obsttortenboden alles halb so viel)
+200 g Zucker
+240 g Mehl
   1/2 Backpulver
     1 Vanillezucker
 </ZUTATEN>
 
 <ZUBEREITUNG>
-Eier schaumig schlagen. 5 Eßlöffel Mehl hinzu geben und nochmal etwas weiter schlagen. Dann Zucker, Vanillezucker, Backpulver, restliches Mehl nach und nach gründlich unterrühren. Teig in Tortenbodenbackform füllen. Zuerst <UHR Sprich="Tortenboden">30:00</UHR> Minuten bei 130 °C (Umluft) backen, anschließend weiter <UHR Sprich="Tortenboden">10:00</UHR> Minuten bei 150 °C (Umluft) auf unterster Schiene. Obsttortenboden etwas länger.
+<c/> Eiweiß zu festem Eischnee schlagen
+<c/> Eigelb schaumig schlagen.
+<c/> nach und nach Zucker, Vanillezucker, Backpukver und die Hälfte vom Mehl darunterrühren
+<c/> restliches Mehl und den Eischnee vorsichtig unterheben
+<c/> Teig in Tortenbodenbackform füllen und <UHR Sprich="Tortenboden">40:00</UHR> Minuten bei 130 °C (Umluft) backen, 
+<c/> Dann weiter etwa <UHR Sprich="Tortenboden">5:00</UHR> Minuten bei 150 °C (Umluft) backen bis gewünschte Bräune erreicht ist.
 </ZUBEREITUNG>
 </REZEPT>
 
@@ -729,7 +734,7 @@ Kartoffeln und Möhren kochen <UHR Sprich="Kartoffeln und Möhren">20:00</UHR> M
 <ZUTATEN>
 500 g feine Linsen
 4     Zwiebeln
-8     Geflügelwiener oder ähnliches
+8     Geflügelwiener oder ähnliches oder Blutwurst
 1 EL  Gemüsebrühpulver
 6     Gewürzgurken
 6     Kartoffeln
@@ -741,7 +746,7 @@ Kartoffeln und Möhren kochen <UHR Sprich="Kartoffeln und Möhren">20:00</UHR> M
 1 EL  Mehl
 </ZUTATEN>
 <ZUBEREITUNG>
-<c/>Linsen nach Packungsanleitung kochen <UHR Sprich="Linsen">30:00</UHR> Minuten oder mehr in 2 l Salzwasser mit einer Speckschwarte. 
+<c/>Linsen nach Packungsanleitung (mit oder ohne Einweichen) kochen 20:00 bis <UHR Sprich="Linsen">30:00</UHR> Minuten oder mehr in 2 l Salzwasser mit einer Speckschwarte. 
 <c/>eine <a>Mehlschwitze</a> machen mit Ei und mit zu den kochenden Linsen tun.
 <c/>Zwiebeln schneiden und dünsten. geschnittene Geflügelwiener kurz mit anschmoren. 
 <c/>Gurken schneiden und mit zu den Zwiebeln tun und <UHR Sprich="Zwiebeln">5:00</UHR> Minuten aufkochen.
@@ -1008,18 +1013,57 @@ ungefähr nach dem Video <a href="https://www.youtube.com/watch?v=PzZITrpLqNA">R
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange"></TITEL>
+<TITEL ok="lavender">Zucchini-Reis-Pfanne</TITEL>
 <ZUTATEN>
+1 große Zucchini
+300 g Reis z.B. Basmati
+1 Pck. Tomatenpüree 500 g
+1 Pck. Pilze
+1 Knoblauch
+1 Fetakäse o.ä.
+etwas Kokosfett
+Salz und Gewürze
+
+Fischfilet
+
 </ZUTATEN>
 <ZUBEREITUNG>
+wie in <a href='https://www.chefkoch.de/rezepte/1137301220006209/Zucchini-Reis-Pfanne-a-la-Helene.html'>https://www.chefkoch.de/rezepte/1137301220006209/Zucchini-Reis-Pfanne-a-la-Helene.html</a>, zusätzlich die Pilze.und das Fischfilet
 </ZUBEREITUNG>
 </REZEPT>
 
 <REZEPT>
-<TITEL ok="orange"></TITEL>
+<TITEL ok="lavender">Streuselkuchen</TITEL>
 <ZUTATEN>
+Teig:
+4 Eier
+180 g Zucker
+100 g Mehl
+100 g Dinkelmehl
+1/2   Backpulver
+1     Vanillezucker
+
+Streusel:
+100 g zerlassene Butter
+100 g Zucker
+200 g Mehl
 </ZUTATEN>
 <ZUBEREITUNG>
+<a>https://www.chefkoch.de/rezepte/1393891244377342/Streuselkuchen-a-la-Oma.html</a>
+
+Teig:
+<c/>Eier schaumig rühren
+<c/>Zucker, Vanillezucker, Backpulver und Mehl darunterrühren
+<c/>in einer Springform verteilen
+<c/>wenn gewünscht noch einen Pudding (aus nur 3/8 l Milch) oben drauf
+
+Streusel:
+<c/>zerlassene Butter und Zucker schaumig rühren
+<c/>nach und nach Mehl dazu rühren bis Streusel werden
+<c/>auf dem Teig verteilen
+
+Backen:
+<c/>bei 170 °C etwa <UHR>35:00</UHR> Minuten
 </ZUBEREITUNG>
 </REZEPT>
 
