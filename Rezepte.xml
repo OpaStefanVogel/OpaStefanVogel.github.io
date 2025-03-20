@@ -1097,6 +1097,44 @@ Backen:
 </REZEPT>
 
 <REZEPT>
+<TITEL ok="lavender">Dresdener Eierschecke</TITEL>
+<ZUTATEN>
+Boden:
+ 65  g Butter
+ 50  g Zucker
+ 1     Ei
+ 1/2   Backpulver
+ 200 g Mehl
+ 
+Füllung:
+ 50  g Butter
+ 1     Ei
+ 100 g Zucker
+ 500 g Quark
+ 1/2 l Milch
+ 1     Puddingpulver
+
+Belag:
+ 3     Eier, getrennt
+ 75  g Zucker
+ 100 g Butter
+
+</ZUTATEN>
+<ZUBEREITUNG>
+
+Quelle: <a>https://www.chefkoch.de/rezepte/1043501209324992/Dresdner-Eierschecke.html</a>
+
+<c/>Aus den Teigzutaten einen Teig zubereiten und in eine gefettete Springform geben. 
+<c/>Die Zutaten für die Füllung miteinander verrühren. 
+<c/>Einen Vanillepudding kochen (ohne Zucker).
+<c/>Die Hälfte davon zur Quarkmasse geben. Diese Masse wird auf dem Teig verteilt.
+<c/>Für den Belag (die Schecke) werden Eigelb, Zucker und Butter schaumig gerührt, die zweite Hälfte des warmen Vanillepuddings wird damit vermischt und die zu Schnee geschlagenen Eiweiße werden untergehoben. Das Ganze auf der Quarkschicht verteilen.
+<c/>Bei mittlerer Hitze (160 – 175°C) circa 30 bis 45 Minuten backen, dabei mit Alufolie abdecken, damit die Schecke nicht verbrennt. Nach dem Backen in der Form auskühlen lassen.
+
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
 <TITEL ok="lavender">Quark-Sahne-Torte</TITEL>
 <ZUTATEN>
 1 Wiener Tortenboden
