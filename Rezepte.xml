@@ -1097,6 +1097,41 @@ Backen:
 </REZEPT>
 
 <REZEPT>
+<TITEL ok="lavender">Quark-Sahne-Torte</TITEL>
+<ZUTATEN>
+1 Wiener Tortenboden
+
+Füllung:
+15 g Gelantine
+2 Eigelb
+100 g Zucker
+1/2 Vanillezucker
+500 g Quark
+3 EL Zitronensaft
+1 Prise Salz
+200 ml gekühlte Schlagsahne
+1/2 Glas Erdbeermarmelade
+Puderzucker zum Bestäuben
+</ZUTATEN>
+<ZUBEREITUNG>
+Quelle: <a href='https://ddr-rezepte.net/quark-sahne-torte/'>Quark-Sahne-Torte</a>
+<c/>einen Wiener <a>Tortenboden</a> machen (einer mit 4 Eier statt 6 reicht aus).
+<c/>Tortenboden aus der Form lösen, erkalten lassen und dann waagerecht halbieren.
+
+<c/>Gelantine nach Packungsanleitung in wenig kaltem Wasser einweichen. 
+<c/>Eigelb, Zucker und Vanillezucker schaumig rühren.
+<c/>Quark, Zitronensaft, Salz nacheinander zugeben und verrühren.
+<c/>Gelatine in heißem Wasserbad auflösen und sofort unter die Quarkmasse rühren.
+<c/>Kühl stellen bis die Masse beginnt, dicklich zu werden.
+<c/>Schlagsahne steif schlagen und unter die Quarkmasse heben.
+<c/>den Boden mit Konfitüre bestreichen, die Hälfte der Quarkmasse darauf füllen.
+<c/>den 2. Boden draufgeben und die restliche Quarkmasse auch drauf.
+<c/>Kühl stellen am besten einen Tag.
+<c/>Vor dem Servieren mit dem Puderzucker bestäuben.
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
 <TITEL ok="orange"></TITEL>
 <ZUTATEN>
 </ZUTATEN>
