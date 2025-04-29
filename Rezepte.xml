@@ -1099,37 +1099,41 @@ Backen:
 <REZEPT>
 <TITEL ok="lavender">Dresdener Eierschecke</TITEL>
 <ZUTATEN>
+Pudding:
+ 1     Puddingpulver
+ 1/4 l Milch
+ etwas Zucker
+
 Boden:
- 65  g Butter
- 50  g Zucker
+ 65  g Butter (40 g Kokosfett)
+ 60  g Zucker
  1     Ei
  1/2   Backpulver
  200 g Mehl
  
 Füllung:
- 50  g Butter
+ 50  g Butter (40 g Kokosfett)
  1     Ei
- 100 g Zucker
+ 110 g Zucker
  500 g Quark
- 1/2 l Milch
- 1     Puddingpulver
+ 1/2   Pudding
 
 Belag:
  3     Eier, getrennt
- 75  g Zucker
- 100 g Butter
+ 80  g Zucker
+ 100 g Butter (80 g Kokosfett)
+ 1/2   Pudding
 
 </ZUTATEN>
 <ZUBEREITUNG>
 
 Quelle: <a>https://www.chefkoch.de/rezepte/1043501209324992/Dresdner-Eierschecke.html</a>
 
-<c/>Aus den Teigzutaten einen Teig zubereiten und in eine gefettete Springform geben. 
-<c/>Die Zutaten für die Füllung miteinander verrühren. 
-<c/>Einen Vanillepudding kochen (ohne Zucker).
-<c/>Die Hälfte davon zur Quarkmasse geben. Diese Masse wird auf dem Teig verteilt.
+<c/>Den Pudding kochen aus nur 1/4 l Milch und wenig Zucker.
+<c/>Aus den Teigzutaten einen Krümelteig machen und in eine gefettete Springform geben. 
+<c/>Die Zutaten für die Füllung miteinander verrühren einschließlich 1/2 Pudding und auf dem Teig verteilen.
 <c/>Für den Belag (die Schecke) werden Eigelb, Zucker und Butter schaumig gerührt, die zweite Hälfte des warmen Vanillepuddings wird damit vermischt und die zu Schnee geschlagenen Eiweiße werden untergehoben. Das Ganze auf der Quarkschicht verteilen.
-<c/>Bei mittlerer Hitze (160 – 175°C) circa 30 bis 45 Minuten backen, dabei mit Alufolie abdecken, damit die Schecke nicht verbrennt. Nach dem Backen in der Form auskühlen lassen.
+<c/>Bei mittlerer Hitze (160 – 175°C) circa 30 bis 45 Minuten (aktuell 140 °C Umluft 80 Min. ohne Abdecken) backen, dabei mit Alufolie abdecken, damit die Schecke nicht verbrennt. Nach dem Backen in der Form auskühlen lassen.
 
 </ZUBEREITUNG>
 </REZEPT>
@@ -1166,6 +1170,40 @@ Quelle: <a href='https://ddr-rezepte.net/quark-sahne-torte/'>Quark-Sahne-Torte</
 <c/>den 2. Boden draufgeben und die restliche Quarkmasse auch drauf.
 <c/>Kühl stellen am besten einen Tag.
 <c/>Vor dem Servieren mit dem Puderzucker bestäuben.
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="lavender">Lachsnudeln mit Spinat</TITEL>
+<ZUTATEN>
+400 g     Lachsfilet
+1         mittelgroße Zwiebel
+1   EL    Olivenöl
+400 g     frischer Blattspinat
+100 ml    Weißwein
+200 ml    Sahne
+1   Prise Salz
+1   Prise Pfeffer
+500 g     Bandnudeln
+</ZUTATEN>
+<ZUBEREITUNG>
+<a href='https://www.einfachkochen.de/rezepte/lachsnudeln-mit-spinat-das-beste-rezept'>einfachkochen.de/rezepte/lachsnudeln-mit-spinat-das-beste-rezept</a> aber den Lachs ganz lassen und extra zubereiten
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
+</ZUBEREITUNG>
+</REZEPT>
+
+<REZEPT>
+<TITEL ok="orange"></TITEL>
+<ZUTATEN>
+</ZUTATEN>
+<ZUBEREITUNG>
 </ZUBEREITUNG>
 </REZEPT>
 
