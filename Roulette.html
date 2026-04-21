@@ -9,9 +9,8 @@
 <body>
 <div id='div_Verlauf'>xxx</div>
 
-<div id='Logfiles' style='display:flex'>
+<div id='Logfiles' style='display:flex; flex-direction:column'>
   <div id='L1' style='display:block; border:solid; margin:10px; height:200px; overflow:auto'>Logfile1</div>
-  <div id='L2' style='display:block; border:solid; margin:10px; height:200px; overflow:auto'>Logfile2</div>
   </div>
 
 
@@ -30,31 +29,44 @@ let neuer_Kugelplatz='noch nicht bekannt';
 let Distanzen=[];
 let Verlauf='';
 
-function Logvar(id) {
+function Logvar() {
+  let id=L1.cloneNode();
+  id.removeAttribute('id');
   let text='';
   text=text+'alter_Kugelplatz='+alter_Kugelplatz+';<br/>';
-  text=text+'neuer_Kugelplatz='+neuer_Kugelplatz+';<br/>';
+  text=text+'neuer_Kugelplatz='+neuer_Kugelplatz+';<br/>';alert(8);
   text=text+'Distanzen='+Distanzen+';<br/>';
   text=text+'Verlauf=<br/>'+Verlauf;
-  id.innerHTML=text;
+  Logfiles.appendChild(id);
+  id.innerHTML=text;alert(9);
   id.scrollTop = id.scrollHeight;
   }
 
-Logvar(L1);
+Logvar();
 
-function getroffen(p) {
+function getroffen(p) {alert(p);
   neuer_Kugelplatz=p;
-  Logvar(L1);
+//  Logvar(L1);
   let p2=p-alter_Kugelplatz;
   alter_Kugelplatz=p;
   neuer_Kugelplatz='noch nicht bekannt';
   Distanzen.push(p2);
-  Logvar(L2);
+  Logvar();
   }
 
 
 getroffen(16);
-getroffen(21);
+getroffen(29);
+getroffen(2);
+getroffen(19);
+getroffen(4);
+getroffen(17);
+getroffen(5);
+getroffen(8);
+getroffen(16);
+getroffen(1);
+getroffen(16);
+getroffen(5);
   </script>
 
 </body>
