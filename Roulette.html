@@ -9,8 +9,10 @@
 <body>
 <div id='div_Verlauf'>xxx</div>
 
-<div id='Logfiles' style='display:flex; flex-direction:column'>
+<div id='Tabellen' style='display:flex; flex-direction:column'>
   <div id='L1' style='display:block; border:solid; margin:10px; height:200px; overflow:auto'>Logfile1</div>
+  </div>
+<div id='Logfile' style='white-space:pre; overflow:auto;'>
   </div>
 
 
@@ -24,7 +26,7 @@ let st1=`
   </tbody></table>
   `;
 
-let alter_Kugelplatz=13;
+let alter_Kugelplatz=16;
 let neuer_Kugelplatz='noch nicht bekannt';
 let Distanzen=[];
 let Verlauf='';
@@ -33,29 +35,29 @@ function Logvar() {
   let id=L1.cloneNode();
   id.removeAttribute('id');
   let text='';
-  text=text+'alter_Kugelplatz='+alter_Kugelplatz+';<br/>';
-  text=text+'neuer_Kugelplatz='+neuer_Kugelplatz+';<br/>';alert(8);
-  text=text+'Distanzen='+Distanzen+';<br/>';
-  text=text+'Verlauf=<br/>'+Verlauf;
-  Logfiles.appendChild(id);
-  id.innerHTML=text;alert(9);
+  text=text+'alter_Kugelplatz='+alter_Kugelplatz+';<br/>\n';
+  text=text+'neuer_Kugelplatz='+neuer_Kugelplatz+';<br/>\n';
+  text=text+'Distanzen='+Distanzen+';<br/>\n';
+  text=text+'Verlauf=<br/>\n'+Verlauf;
+  Tabellen.appendChild(id);
+  id.innerHTML=text;
   id.scrollTop = id.scrollHeight;
+  Logfile.innerText=Logfile.innerText+text;
   }
 
 Logvar();
 
-function getroffen(p) {alert(p);
+function getroffen(p) {
   neuer_Kugelplatz=p;
-//  Logvar(L1);
   let p2=p-alter_Kugelplatz;
-  alter_Kugelplatz=p;
-  neuer_Kugelplatz='noch nicht bekannt';
+  if (p2<0) p2=p2+37;
+  p2=p2+1;
   Distanzen.push(p2);
   Logvar();
+  alter_Kugelplatz=p;
   }
 
 
-getroffen(16);
 getroffen(29);
 getroffen(2);
 getroffen(19);
@@ -67,6 +69,7 @@ getroffen(16);
 getroffen(1);
 getroffen(16);
 getroffen(5);
+getroffen(25);
   </script>
 
 </body>
