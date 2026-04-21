@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Roulette</title>
+  <meta charset="utf-8"/>
+  <style type="text/css"> 
+    </style> 
+
+<!-- <EISENB><HILLI>ok hab d=(Math.sqrt(7)-2)/3*R</HILLI></EISENB> -->
+<body>
+<div id='div_Verlauf'>xxx</div>
+
+<div id='Logfiles' style='display:flex'>
+  <div id='L1' style='display:block; border:solid; margin:10px; height:200px; overflow:auto'>Logfile1</div>
+  <div id='L2' style='display:block; border:solid; margin:10px; height:200px; overflow:auto'>Logfile2</div>
+  </div>
+
+
+<script>
+
+let st0=`
+<table><tbody>
+  <tr><td>Bereich</td></td>Mittelwert</td><td>Streuung</td><td>gesetzt></td></tr>
+  `;
+let st1=`
+  </tbody></table>
+  `;
+
+let alter_Kugelplatz=13;
+let neuer_Kugelplatz='noch nicht bekannt';
+let Distanzen=[];
+let Verlauf='';
+
+function Logvar(id) {
+  let text='';
+  text=text+'alter_Kugelplatz='+alter_Kugelplatz+';<br/>';
+  text=text+'neuer_Kugelplatz='+neuer_Kugelplatz+';<br/>';
+  text=text+'Distanzen='+Distanzen+';<br/>';
+  text=text+'Verlauf=<br/>'+Verlauf;
+  id.innerHTML=text;
+  id.scrollTop = id.scrollHeight;
+  }
+
+Logvar(L1);
+
+function getroffen(p) {
+  neuer_Kugelplatz=p;
+  Logvar(L1);
+  let p2=p-alter_Kugelplatz;
+  alter_Kugelplatz=p;
+  neuer_Kugelplatz='noch nicht bekannt';
+  Distanzen.push(p2);
+  Logvar(L2);
+  }
+
+
+getroffen(16);
+getroffen(21);
+  </script>
+
+</body>
+  </html>
+
+<!--
+.. L1 L2 ans Ende scrollen
+.. fill in g-Element packen
+  -->
