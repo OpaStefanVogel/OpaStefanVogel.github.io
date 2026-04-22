@@ -28,16 +28,24 @@ let st1=`
 
 let alter_Kugelplatz=16;
 let neuer_Kugelplatz='noch nicht bekannt';
-let Distanzen=[];
+let Distanzen1=[];
+let Distanzen2=[];
 let Verlauf='';
+let Wurfnr=0;
+let Bereich=[];
+let Bereiche=[];
+let Einsatz=[];
 
 function Logvar() {
   let id=L1.cloneNode();
   id.removeAttribute('id');
   let text='';
+  text=text+'Wurfnummer='+Wurfnr+';<br/>\n';
   text=text+'alter_Kugelplatz='+alter_Kugelplatz+';<br/>\n';
   text=text+'neuer_Kugelplatz='+neuer_Kugelplatz+';<br/>\n';
-  text=text+'Distanzen='+Distanzen+';<br/>\n';
+  text=text+'Einsatz war '+Einsatz+';<br/>\n';
+  text=text+'Distanzen1='+Distanzen1+';<br/>\n';
+  text=text+'Distanzen2='+Distanzen2+';<br/>\n';
   text=text+'Verlauf=<br/>\n'+Verlauf;
   Tabellen.appendChild(id);
   id.innerHTML=text;
@@ -48,11 +56,16 @@ function Logvar() {
 Logvar();
 
 function getroffen(p) {
+  Wurfnr=Wurfnr+1;
   neuer_Kugelplatz=p;
-  let p2=p-alter_Kugelplatz;
-  if (p2<0) p2=p2+37;
-  p2=p2+1;
-  Distanzen.push(p2);
+  let p2=0;
+  let p3=0;
+  if (Wurfnr%2==1) {p2=p-alter_Kugelplatz; p3=alter_Kugelplatz-p} else {p2=alter_Kugelplatz-p; p3=p-alter_Kugelplatz}
+  if (p2<0) p2=p2+37; p2=p2+1;
+  if (p3<0) p3=p3+37; p3=p3+1;
+  Distanzen1.push(p2); Distanzen1.sort(Zsort);
+  Distanzen2.push(p3); Distanzen2.sort(Zsort);
+  neu_setzen();
   Logvar();
   alter_Kugelplatz=p;
   }
@@ -70,6 +83,43 @@ getroffen(1);
 getroffen(16);
 getroffen(5);
 getroffen(25);
+
+
+Tabellen.removeChild(Tabellen.firstChild);
+Tabellen.removeChild(Tabellen.firstChild);
+Tabellen.removeChild(Tabellen.firstChild);
+Tabellen.removeChild(Tabellen.firstChild);
+
+function neu_setzen() {
+  Verlauf='';
+  Bereiche=[];
+  for (let i=0;i<Distanzen1.length;i++) {
+    Bereich=[Distanzen1[i]];
+    for (let j=i+1;j<Distanzen1.length;j++) Bereich.push(Distanzen1[j]);
+    for (let j=0;j<i;j++) Bereich.push(Distanzen1[j]+37);
+    let Mittelwert=berechne_Mittelwert(Bereich);
+    let Streuung=berechne_Streuung(Bereich,Mittelwert);
+    Verlauf=Verlauf+Bereich+' mw='+Mittelwert+' st='+Streuung+'<br/>\n';
+    Bereiche.push([Bereich,Mittelwert,Streuung]);
+    }
+  }
+
+function Zsort(a,b) {if (a<b) return -1;if (a==b) return 0; return 1}
+
+function berechne_Mittelwert(arr) {
+  let mw=0;
+  for (let i=0;i<arr.length;i++) mw=mw+arr[i];
+  mw=mw/arr.length;
+  return mw;
+  }
+
+function berechne_Streuung(arr,mw) {
+  let st=0;
+  for (let i=0;i<arr.length;i++) st=st+(arr[i]-mw)**2;
+  st=Math.sqrt(st/arr.length);
+  return st;
+  }
+
   </script>
 
 </body>
