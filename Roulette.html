@@ -7,10 +7,10 @@
 
 <!-- <EISENB><HILLI>ok hab d=(Math.sqrt(7)-2)/3*R</HILLI></EISENB> -->
 <body>
-<div id='div_Verlauf'>xxx</div>
+<div id='div_Verlauf'>Startguthaben=100</div>
 
 <div id='Tabellen' style='display:flex; flex-direction:column'>
-  <div id='L1' style='display:block; border:solid; margin:10px; height:200px; overflow:auto'>Logfile1</div>
+  <div id='L1' style='display:block; border:solid; margin:10px; overflow:auto'>Logfile1</div>
   </div>
 <div id='Logfile' style='white-space:pre; overflow:auto;'>
   </div>
@@ -36,23 +36,28 @@ let Bereich=[];
 let Bereiche=[];
 let Einsatz=[];
 let neuer_Einsatz=[];
+let vorheriges_Guthaben=100
+let verloren=0;
+let gewonnen=0;
 let Guthaben=100;
 
 function Logvar() {
   let id=L1.cloneNode();
   id.removeAttribute('id');
   let text='';
-  text=text+'Wurfnummer='+Wurfnr+';<br/>\n';
-  text=text+'neuer_Kugelplatz='+neuer_Kugelplatz+';<br/>\n';
-  text=text+'Einsatz war '+Einsatz+';<br/>\n';
-  text=text+'Guthaben='+Guthaben+';<br/>\n'+'<br/>\n';
+  text=text+'Gesetzt ist auf Position ['+Einsatz+']<br/>\n';
+  text=text+'Der '+Wurfnr+'-te Wurf landet auf Position '+neuer_Kugelplatz+' → ';
+  if (gewonnen) text=text+'gewonnen!!!'; else text=text+'leider verloren'
+  text=text+';<br/>\n';
+  text=text+'neues Guthaben: '+vorheriges_Guthaben+'-'+verloren+'+'+gewonnen+'='+Guthaben+';<br/>\n'+'<br/>\n';
+  text=text+'neuen Einsatz festlegen:'+'<br/>\n';
   text=text+'alter_Kugelplatz='+alter_Kugelplatz+';<br/>\n';
   text=text+'Distanzen1='+Distanzen1+';<br/>\n';
   text=text+'Distanzen2='+Distanzen2+';<br/>\n';
-  text=text+'Verlauf=<br/>\n'+Verlauf;
+  text=text+'Bereiche:<br/>\n'+Verlauf;
   Tabellen.appendChild(id);
   id.innerHTML=text;
-  id.scrollTop = id.scrollHeight;
+  id.scrollTop = 0;//id.scrollHeight;
   Logfile.innerText=Logfile.innerText+text;
   }
 
@@ -61,9 +66,11 @@ Logvar();
 function getroffen(p) {
   Wurfnr=Wurfnr+1;
   neuer_Kugelplatz=p;
-  Guthaben=Guthaben-neuer_Einsatz.length;
-  //alert(p+' in '+neuer_Einsatz+' ist '+neuer_Einsatz.indexOf(p));
-  if (neuer_Einsatz.indexOf(p)>-1) Guthaben=Guthaben+36;
+  verloren=neuer_Einsatz.length;
+  gewonnen=0;
+  if (neuer_Einsatz.indexOf(p)>-1) {verloren=verloren-1;gewonnen=35}
+  vorheriges_Guthaben=Guthaben;
+  Guthaben=Guthaben-verloren+gewonnen;
   let p2=0;
   let p3=0;
   if (Wurfnr%2==1) {p2=p-alter_Kugelplatz; p3=alter_Kugelplatz-p} else {p2=alter_Kugelplatz-p; p3=p-alter_Kugelplatz}
@@ -71,7 +78,7 @@ function getroffen(p) {
   if (p3<0) p3=p3+37; p3=p3+1;
   Distanzen1.push(p2); Distanzen1.sort(Zsort);
   Distanzen2.push(p3); Distanzen2.sort(Zsort);
-  neu_setzen();
+  neu_setzen(Distanzen1);
   Logvar();
   alter_Kugelplatz=p;
   }
@@ -96,31 +103,37 @@ Tabellen.removeChild(Tabellen.firstChild);
 Tabellen.removeChild(Tabellen.firstChild);
 Tabellen.removeChild(Tabellen.firstChild);
 
-function neu_setzen() {
+function neu_setzen(Distanzen1) {
   Verlauf='';
   Bereiche=[];
   for (let i=0;i<Distanzen1.length;i++) {
     Bereich=[Distanzen1[i]];
     for (let j=i+1;j<Distanzen1.length;j++) Bereich.push(Distanzen1[j]);
     for (let j=0;j<i;j++) Bereich.push(Distanzen1[j]+37);
-    let Mittelwert=berechne_Mittelwert(Bereich);
-    let Streuung=berechne_Streuung(Bereich,Mittelwert);
-    Verlauf=Verlauf+Bereich+' mw='+Mittelwert+' st='+Streuung+'<br/>\n';
+    let Mittelwert=Math.round(berechne_Mittelwert(Bereich));
+//    if (Wurfnr%2==1) Mittelwert=Mittelwert+1;
+    let Streuung=Math.floor(berechne_Streuung(Bereich,Mittelwert));
+    Verlauf=Verlauf+Bereich+' Mittelwert='+Mittelwert+' Streuung='+Streuung+'<br/>\n';
     Bereiche.push([Bereich,Mittelwert,Streuung]);
     }
   let imin=0;
   let smin=10000000;
   for (let i=0;i<Bereiche.length;i++) if (Bereiche[i][2]<smin) {imin=i;smin=Bereiche[i][2]}
-  Verlauf=Verlauf+'imin='+imin+' smin='+smin+'<br/>\n';
+  Verlauf=Verlauf+'minimale Streuung='+smin+' bei Mittelwert=';
   Einsatz=neuer_Einsatz;
   neuer_Einsatz=[];
   Bereich=Bereiche[imin];
+  Verlauf=Verlauf+Bereich[1]+'<br/>\n';
   for (let z=Bereich[1]-Bereich[2];z<Bereich[1]+Bereich[2]+1;z++) {
     let n=Math.round(neuer_Kugelplatz+z-1);
     if (n>37) neuer_Einsatz.push(n-37); else neuer_Einsatz.push(n);
     }
-  Verlauf=Verlauf+'neuer Mittelwert ist '+Math.round(neuer_Kugelplatz+Bereich[1]-1)+'<br/>\n';
-  Verlauf=Verlauf+'neuer Einsatz ist '+neuer_Einsatz;
+  let np=neuer_Kugelplatz+Bereich[1]-1;
+  Verlauf=Verlauf+'neue mittlere Position ist '+neuer_Kugelplatz+'+'+Bereich[1]+'-1';
+  if (np>37) Verlauf=Verlauf+'-37='+(np-37); else Verlauf=Verlauf+'='+np;
+  
+  Verlauf=Verlauf+', dazu noch auf beiden Seiten '+smin+' Plätze<br/>\n';
+  Verlauf=Verlauf+'neuer Einsatz auf Position ['+neuer_Einsatz+']';
 
   }
 
