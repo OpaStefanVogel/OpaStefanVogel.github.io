@@ -35,6 +35,7 @@ let Wurfnr=0;
 let Bereich=[];
 let Bereiche=[];
 let Einsatz=[];
+let neuer_Einsatz=[];
 
 function Logvar() {
   let id=L1.cloneNode();
@@ -102,6 +103,20 @@ function neu_setzen() {
     Verlauf=Verlauf+Bereich+' mw='+Mittelwert+' st='+Streuung+'<br/>\n';
     Bereiche.push([Bereich,Mittelwert,Streuung]);
     }
+  let imin=0;
+  let smin=10000000;
+  for (let i=0;i<Bereiche.length;i++) if (Bereiche[i][2]<smin) {imin=i;smin=Bereiche[i][2]}
+  Verlauf=Verlauf+'imin='+imin+' smin='+smin+'<br/>\n';
+  Einsatz=neuer_Einsatz;
+  neuer_Einsatz=[];
+  Bereich=Bereiche[imin];
+  for (let z=Bereich[1]-Bereich[2];z<Bereich[1]+Bereich[2]+1;z++) {
+    let n=Math.round(neuer_Kugelplatz+z-1);
+    if (n>37) neuer_Einsatz.push(n-37); else neuer_Einsatz.push(n);
+    }
+  Verlauf=Verlauf+'neuer Mittelwert ist '+Math.round(neuer_Kugelplatz+Bereich[1]-1)+'<br/>\n';
+  Verlauf=Verlauf+'neuer Einsatz ist '+neuer_Einsatz;
+
   }
 
 function Zsort(a,b) {if (a<b) return -1;if (a==b) return 0; return 1}
