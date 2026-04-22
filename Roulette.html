@@ -36,15 +36,17 @@ let Bereich=[];
 let Bereiche=[];
 let Einsatz=[];
 let neuer_Einsatz=[];
+let Guthaben=100;
 
 function Logvar() {
   let id=L1.cloneNode();
   id.removeAttribute('id');
   let text='';
   text=text+'Wurfnummer='+Wurfnr+';<br/>\n';
-  text=text+'alter_Kugelplatz='+alter_Kugelplatz+';<br/>\n';
   text=text+'neuer_Kugelplatz='+neuer_Kugelplatz+';<br/>\n';
   text=text+'Einsatz war '+Einsatz+';<br/>\n';
+  text=text+'Guthaben='+Guthaben+';<br/>\n'+'<br/>\n';
+  text=text+'alter_Kugelplatz='+alter_Kugelplatz+';<br/>\n';
   text=text+'Distanzen1='+Distanzen1+';<br/>\n';
   text=text+'Distanzen2='+Distanzen2+';<br/>\n';
   text=text+'Verlauf=<br/>\n'+Verlauf;
@@ -59,6 +61,9 @@ Logvar();
 function getroffen(p) {
   Wurfnr=Wurfnr+1;
   neuer_Kugelplatz=p;
+  Guthaben=Guthaben-neuer_Einsatz.length;
+  //alert(p+' in '+neuer_Einsatz+' ist '+neuer_Einsatz.indexOf(p));
+  if (neuer_Einsatz.indexOf(p)>-1) Guthaben=Guthaben+36;
   let p2=0;
   let p3=0;
   if (Wurfnr%2==1) {p2=p-alter_Kugelplatz; p3=alter_Kugelplatz-p} else {p2=alter_Kugelplatz-p; p3=p-alter_Kugelplatz}
@@ -134,7 +139,6 @@ function berechne_Streuung(arr,mw) {
   st=Math.sqrt(st/arr.length);
   return st;
   }
-
   </script>
 
 </body>
