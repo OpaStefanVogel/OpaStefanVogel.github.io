@@ -7,7 +7,7 @@
 
 <!-- <EISENB><HILLI>ok hab d=(Math.sqrt(7)-2)/3*R</HILLI></EISENB> -->
 <body>
-<div id='div_Verlauf'>Startguthaben=100</div>
+<div id='div_Verlauf'>Startguthaben=100. Die Kugel liegt anfangs im Fach mit der Position 16</div>
 
 <div id='Tabellen' style='display:flex; flex-direction:column'>
   <div id='L1' style='display:block; border:solid; margin:10px; overflow:auto'>Logfile1</div>
@@ -74,8 +74,8 @@ function getroffen(p) {
   let p2=0;
   let p3=0;
   if (Wurfnr%2==1) {p2=p-alter_Kugelplatz; p3=alter_Kugelplatz-p} else {p2=alter_Kugelplatz-p; p3=p-alter_Kugelplatz}
-  if (p2<0) p2=p2+37; p2=p2+1;
-  if (p3<0) p3=p3+37; p3=p3+1;
+  if (p2<0) p2=p2+37; //p2=p2+1;
+  if (p3<0) p3=p3+37; //p3=p3+1;
   Distanzen1.push(p2); Distanzen1.sort(Zsort);
   Distanzen2.push(p3); Distanzen2.sort(Zsort);
   neu_setzen(Distanzen1);
@@ -125,11 +125,11 @@ function neu_setzen(Distanzen1) {
   Bereich=Bereiche[imin];
   Verlauf=Verlauf+Bereich[1]+'<br/>\n';
   for (let z=Bereich[1]-Bereich[2];z<Bereich[1]+Bereich[2]+1;z++) {
-    let n=Math.round(neuer_Kugelplatz+z-1);
+    let n=Math.round(neuer_Kugelplatz+z);
     if (n>37) neuer_Einsatz.push(n-37); else neuer_Einsatz.push(n);
     }
-  let np=neuer_Kugelplatz+Bereich[1]-1;
-  Verlauf=Verlauf+'neue mittlere Position ist '+neuer_Kugelplatz+'+'+Bereich[1]+'-1';
+  let np=neuer_Kugelplatz+Bereich[1];
+  Verlauf=Verlauf+'neue mittlere Position ist '+neuer_Kugelplatz+'+'+Bereich[1];
   if (np>37) Verlauf=Verlauf+'-37='+(np-37); else Verlauf=Verlauf+'='+np;
   
   Verlauf=Verlauf+', dazu noch auf beiden Seiten '+smin+' Plätze<br/>\n';
