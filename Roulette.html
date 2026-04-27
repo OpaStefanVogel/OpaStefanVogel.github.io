@@ -4,28 +4,31 @@
   <meta charset="utf-8"/>
   <style type="text/css"> 
     </style> 
-
+ 
 <!-- <EISENB><HILLI>ok hab d=(Math.sqrt(7)-2)/3*R</HILLI></EISENB> -->
 <body style='width:fit-content'>
+Programm zu <a href='https://matheplanet.de/matheplanet/nuke/html/viewtopic.php?topic=267358&post_id=1954962' target=_blank><u>https://matheplanet.de/matheplanet/nuke/html/viewtopic.php?topic=267358&post_id=1954962</u></a>
 <div id='div_Start'>Startguthaben=100. Die Kugel liegt anfangs im Fach mit der Position 16</div>
-
+ 
 <div id='Tabellen' style='display:flex; flex-direction:column'>
   <div id='L1' style='display:block; border:solid; margin:10px; white-space:pre; overflow:auto'>Logfile1</div>
   </div>
 <div id='Logfile' style='white-space:pre; overflow:auto; display:none'>
   </div>
-
-
+ 
+ 
 <script>
-
+ 
 let st0=`
+ 
 <table><tbody>
   <tr><td>Bereich</td></td>Mittelwert</td><td>Streuung</td><td>gesetzt></td></tr>
   `;
 let st1=`
   </tbody></table>
+ 
   `;
-
+ 
 let alter_Kugelplatz=16;
 let neuer_Kugelplatz='noch nicht bekannt';
 let Distanzen1=[];
@@ -40,11 +43,12 @@ let vorheriges_Guthaben=100;
 let verloren=0;
 let gewonnen=0;
 let Guthaben=100;
-
+ 
 div_Start.innerHTML='Startguthaben='+Guthaben+'. Die Kugel liegt anfangs im Fach auf der Position '+alter_Kugelplatz+'.';
-
+ 
 function Logvar() {
-  let id=L1.cloneNode();
+  let id=document.createElement('div');
+  id.setAttribute('style','display:block; border:solid; margin:10px; white-space:pre; overflow:auto');
   id.removeAttribute('id');
   let text='';
   text=text+'<code>Gesetzt ist ';
@@ -68,9 +72,9 @@ function Logvar() {
   id.innerHTML=text;
   Logfile.innerText=Logfile.innerText+text;
   }
-
+ 
 Logvar();
-
+ 
 function getroffen(p) {
   Wurfnr=Wurfnr+1;
   neuer_Kugelplatz=p;
@@ -84,14 +88,14 @@ function getroffen(p) {
   if (Wurfnr%2==1) {p1=p-alter_Kugelplatz; p2=alter_Kugelplatz-p} else {p1=alter_Kugelplatz-p; p2=p-alter_Kugelplatz}
   if (p1<0) p1=p1+37; //p1=p1+1;
   if (p2<0) p2=p2+37; //p2=p2+1;
-  Distanzen1.push(p1); //Distanzen1.sort(Zsort);
-  Distanzen2.push(p2); //Distanzen2.sort(Zsort);
+  Distanzen1.push(p1); Distanzen1.sort(Zsort);
+  Distanzen2.push(p2); Distanzen2.sort(Zsort);
   neu_setzen(Distanzen1);
   Logvar();
   alter_Kugelplatz=p;
   }
-
-
+ 
+ 
 getroffen(29);
 getroffen(2);
 getroffen(19);
@@ -104,13 +108,13 @@ getroffen(1);
 getroffen(16);
 getroffen(5);
 getroffen(25);
-
-
+ 
+ 
 Tabellen.removeChild(Tabellen.firstChild);
 Tabellen.removeChild(Tabellen.firstChild);
 Tabellen.removeChild(Tabellen.firstChild);
 Tabellen.removeChild(Tabellen.firstChild);
-
+ 
 function neu_setzen(Distanzen1) {
   Verlauf='';
   Bereiche=[];
@@ -139,31 +143,27 @@ function neu_setzen(Distanzen1) {
   let np=neuer_Kugelplatz+Bereich[1];
   Verlauf=Verlauf+'neue mittlere Position ist '+neuer_Kugelplatz+'+'+Bereich[1];
   if (np>36) Verlauf=Verlauf+'-37='+(np-37); else Verlauf=Verlauf+'='+np;
-  
+ 
   Verlauf=Verlauf+', dazu noch auf beiden Seiten '+smin+' Plätze\n';
-  Verlauf=Verlauf+'neuer Einsatz auf die Positionen ['+neuer_Einsatz+']\n</code>';
-
+  Verlauf=Verlauf+'neuer Einsatz auf die Position';
+  if (neuer_Einsatz.length>1) Verlauf=Verlauf+'en';
+  Verlauf=Verlauf+' ['+neuer_Einsatz+']\n</code>';
+ 
   }
-
+ 
 function Zsort(a,b) {if (a<b) return -1;if (a==b) return 0; return 1}
-
+ 
 function berechne_Mittelwert(arr) {
   let mw=0;
   for (let i=0;i<arr.length;i++) mw=mw+arr[i];
   mw=mw/arr.length;
   return mw;
   }
-
+ 
 function berechne_Streuung(arr,mw) {
   let st=0;
   for (let i=0;i<arr.length;i++) st=st+(arr[i]-mw)**2;
   st=Math.sqrt(st/arr.length);
   return st;
   }
-  </script>
-
-</body>
-  </html>
-
-<!--
-  -->
+  </script></body></html>
